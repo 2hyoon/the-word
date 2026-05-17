@@ -21,8 +21,10 @@
     {
       "step": 3,
       "name": "types-data-lib",
-      "status": "pending",
-      "summary": ""
+      "status": "completed",
+      "summary": "types/index.ts(Verse·Category·CATEGORIES), data/verses.json(48구절), lib/wheel.ts(휠 상수·헬퍼), lib/image.ts(html2canvas 캡처 유틸) 생성",
+      "started_at": "2026-05-17T09:32:38+0900",
+      "completed_at": "2026-05-16T00:00:00+0900"
     },
     {
       "step": 4,

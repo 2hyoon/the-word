@@ -7,7 +7,8 @@
       "name": "verse-card",
       "status": "completed",
       "summary": "VerseCard.tsx 작성 — 카테고리 뱃지, 말씀 본문, 성경 출처, fadeIn 400ms 애니메이션 포함",
-      "started_at": "2026-05-17T13:07:39+0900"
+      "started_at": "2026-05-17T13:07:39+0900",
+      "completed_at": "2026-05-17T13:08:31+0900"
     },
     {
       "step": 2,

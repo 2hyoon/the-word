@@ -7,7 +7,8 @@
       "name": "packages-layout-fonts",
       "status": "completed",
       "summary": "d3/html2canvas/@types/d3 설치, NanumSquareNeo TTF 5종 public/fonts/ 복사, layout.tsx Geist 제거 후 lang=ko·color-scheme·OG 메타 적용",
-      "started_at": "2026-05-17T09:30:57+0900"
+      "started_at": "2026-05-17T09:30:57+0900",
+      "completed_at": "2026-05-17T09:32:03+0900"
     },
     {
       "step": 2,

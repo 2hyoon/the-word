@@ -1,7 +1,7 @@
-export default function Home() {
-  return (
-    <main>
-      <h1>Hello</h1>
-    </main>
-  );
+import verses from '@/data/verses.json'
+import HomeClient from '@/components/HomeClient'
+import type { Verse } from '@/types'
+
+export default function Page() {
+  return <HomeClient verses={verses as Verse[]} />
 }

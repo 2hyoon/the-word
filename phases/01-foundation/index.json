@@ -29,8 +29,10 @@
     {
       "step": 4,
       "name": "page-server-component",
-      "status": "pending",
-      "summary": ""
+      "status": "completed",
+      "summary": "app/page.tsx(Server Component, verses.json 정적 import → HomeClient props 전달), components/HomeClient.tsx(placeholder skeleton) 생성, 빌드 성공",
+      "started_at": "2026-05-17T09:35:01+0900",
+      "completed_at": "2026-05-17T09:38:00+0900"
     }
   ],
   "created_at": "2026-05-17T09:30:57+0900"

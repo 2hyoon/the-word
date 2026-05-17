@@ -16,7 +16,7 @@
       "status": "completed",
       "summary": "ExportCard.tsx 작성 — forwardRef+useImperativeHandle로 save() 노출, 화면 밖(left:-9999px) 540×540px 캡처용 카드, 카테고리 뱃지·말씀·출처·워터마크 포함",
       "started_at": "2026-05-17T13:08:31+0900",
-      "completed_at": "2026-05-17T13:25:00+0900"
+      "completed_at": "2026-05-17T13:10:16+0900"
     },
     {
       "step": 3,

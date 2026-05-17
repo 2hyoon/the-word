@@ -5,8 +5,10 @@
     {
       "step": 1,
       "name": "wheel-component",
-      "status": "pending",
-      "summary": ""
+      "status": "completed",
+      "summary": "components/Wheel.tsx — D3 v7 6구역 원형 휠, 얇은 선 스타일, easeCubicOut 스핀, 12시 포인터, prefers-reduced-motion 대응, isSpinning/rotation useRef 관리",
+      "started_at": "2026-05-17T09:35:52+0900",
+      "completed_at": "2026-05-17T09:45:01+0900"
     },
     {
       "step": 2,
@@ -14,5 +16,6 @@
       "status": "pending",
       "summary": ""
     }
-  ]
+  ],
+  "created_at": "2026-05-17T09:35:52+0900"
 }

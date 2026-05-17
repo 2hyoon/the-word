@@ -5,7 +5,8 @@
       "dir": "01-foundation",
       "name": "foundation",
       "description": "패키지 설치, 폰트, 레이아웃, CSS 변수, 타입, 데이터, 유틸 라이브러리",
-      "status": "pending"
+      "status": "completed",
+      "completed_at": "2026-05-17T09:35:48+0900"
     },
     {
       "dir": "02-wheel",

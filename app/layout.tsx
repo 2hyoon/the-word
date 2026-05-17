@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "The Word",
-  description: "",
+  title: "the Word — 오늘의 말씀",
+  description: "지금 이 순간 당신에게 필요한 말씀을 뽑아보세요",
+  openGraph: {
+    title: "the Word — 오늘의 말씀",
+    description: "지금 이 순간 당신에게 필요한 말씀을 뽑아보세요",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    type: "website",
+    url: "https://theword.app",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({
@@ -23,11 +20,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="ko">
+      <head>
+        <meta name="color-scheme" content="light" />
+      </head>
+      <body>{children}</body>
     </html>
   );
 }

@@ -1,0 +1,23 @@
+{
+  "project": "the Word",
+  "phases": [
+    {
+      "dir": "01-foundation",
+      "name": "foundation",
+      "description": "패키지 설치, 폰트, 레이아웃, CSS 변수, 타입, 데이터, 유틸 라이브러리",
+      "status": "pending"
+    },
+    {
+      "dir": "02-wheel",
+      "name": "wheel",
+      "description": "D3 원형 휠 컴포넌트 + HomeClient 전환 컨테이너",
+      "status": "pending"
+    },
+    {
+      "dir": "03-card",
+      "name": "card",
+      "description": "말씀 카드 + 이미지 저장 + 전체 통합",
+      "status": "pending"
+    }
+  ]
+}

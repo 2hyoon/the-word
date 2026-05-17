@@ -1,0 +1,18 @@
+{
+  "project": "the Word",
+  "phase": "wheel",
+  "steps": [
+    {
+      "step": 1,
+      "name": "wheel-component",
+      "status": "pending",
+      "summary": ""
+    },
+    {
+      "step": 2,
+      "name": "home-client-transition",
+      "status": "pending",
+      "summary": ""
+    }
+  ]
+}

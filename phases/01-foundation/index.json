@@ -1,0 +1,30 @@
+{
+  "project": "the Word",
+  "phase": "foundation",
+  "steps": [
+    {
+      "step": 1,
+      "name": "packages-layout-fonts",
+      "status": "pending",
+      "summary": ""
+    },
+    {
+      "step": 2,
+      "name": "globals-css",
+      "status": "pending",
+      "summary": ""
+    },
+    {
+      "step": 3,
+      "name": "types-data-lib",
+      "status": "pending",
+      "summary": ""
+    },
+    {
+      "step": 4,
+      "name": "page-server-component",
+      "status": "pending",
+      "summary": ""
+    }
+  ]
+}

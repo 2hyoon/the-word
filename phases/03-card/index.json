@@ -1,0 +1,24 @@
+{
+  "project": "the Word",
+  "phase": "card",
+  "steps": [
+    {
+      "step": 1,
+      "name": "verse-card",
+      "status": "pending",
+      "summary": ""
+    },
+    {
+      "step": 2,
+      "name": "export-card",
+      "status": "pending",
+      "summary": ""
+    },
+    {
+      "step": 3,
+      "name": "full-integration",
+      "status": "pending",
+      "summary": ""
+    }
+  ]
+}

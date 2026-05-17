@@ -13,11 +13,10 @@
     {
       "step": 2,
       "name": "home-client-transition",
-      "status": "error",
-      "summary": "",
-      "started_at": "2026-05-17T09:45:01+0900",
-      "error_message": "[3회 시도 후 실패] Step did not update status",
-      "failed_at": "2026-05-17T09:45:09+0900"
+      "status": "completed",
+      "summary": "components/HomeClient.tsx — 'use client', selectedVerse 상태, handleCategorySelect/handleReset/handleSave 핸들러, Wheel+카드placeholder Option B 전환 컨테이너, 안내문구 opacity transition, 버튼 세로 배치",
+      "started_at": "2026-05-17T13:06:23+0900",
+      "completed_at": "2026-05-17T13:15:00+0900"
     }
   ],
   "created_at": "2026-05-17T09:35:52+0900"

@@ -20,7 +20,8 @@
       "dir": "03-card",
       "name": "card",
       "description": "말씀 카드 + 이미지 저장 + 전체 통합",
-      "status": "pending"
+      "status": "completed",
+      "completed_at": "2026-05-17T13:11:28+0900"
     }
   ]
 }

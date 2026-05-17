@@ -12,8 +12,9 @@
       "dir": "02-wheel",
       "name": "wheel",
       "description": "D3 원형 휠 컴포넌트 + HomeClient 전환 컨테이너",
-      "status": "error",
-      "failed_at": "2026-05-17T09:45:09+0900"
+      "status": "completed",
+      "failed_at": "2026-05-17T09:45:09+0900",
+      "completed_at": "2026-05-17T13:07:35+0900"
     },
     {
       "dir": "03-card",

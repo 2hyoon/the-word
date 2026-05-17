@@ -1,8 +1,11 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import type { Verse } from '@/types'
 import Wheel from '@/components/Wheel'
+import VerseCard from '@/components/VerseCard'
+import ExportCard from '@/components/ExportCard'
+import type { ExportCardHandle } from '@/components/ExportCard'
 
 interface HomeClientProps {
   verses: Verse[]
@@ -10,6 +13,8 @@ interface HomeClientProps {
 
 export default function HomeClient({ verses }: HomeClientProps) {
   const [selectedVerse, setSelectedVerse] = useState<Verse | null>(null)
+  const [saveState, setSaveState] = useState<'idle' | 'saving' | 'success' | 'error'>('idle')
+  const exportCardRef = useRef<ExportCardHandle>(null)
 
   const handleCategorySelect = (categoryId: string) => {
     const pool = verses.filter(v => v.categoryId === categoryId)
@@ -19,12 +24,29 @@ export default function HomeClient({ verses }: HomeClientProps) {
   }
 
   const handleReset = () => {
+    setSaveState('idle')
     setSelectedVerse(null)
   }
 
-  const handleSave = () => {
-    alert('저장 기능은 Phase 03에서 구현됩니다')
+  const handleSave = async () => {
+    if (saveState === 'saving' || !exportCardRef.current) return
+    setSaveState('saving')
+    try {
+      await exportCardRef.current.save()
+      setSaveState('success')
+      setTimeout(() => setSaveState('idle'), 1500)
+    } catch {
+      setSaveState('error')
+      setTimeout(() => setSaveState('idle'), 3000)
+    }
   }
+
+  const saveButtonLabel = {
+    idle:    '저장하기',
+    saving:  '저장 중...',
+    success: '저장됐어요 ✓',
+    error:   '저장에 실패했어요. 다시 시도해주세요',
+  }[saveState]
 
   return (
     <main
@@ -108,37 +130,24 @@ export default function HomeClient({ verses }: HomeClientProps) {
           <Wheel visible={!selectedVerse} onCategorySelect={handleCategorySelect} />
         </div>
 
-        {/* 카드 placeholder */}
+        {/* VerseCard */}
         {selectedVerse && (
-          <div
-            style={{
-              position: 'absolute',
-              inset: 0,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              opacity: 1,
-              animation: 'fadeIn 400ms ease-out',
-              padding: '24px',
-              background: 'var(--card-bg)',
-              border: '1px solid var(--card-border)',
-              borderRadius: '12px',
-              textAlign: 'center',
-            }}
-          >
-            <p
-              style={{
-                fontFamily: 'NanumSquareNeo, sans-serif',
-                fontSize: '14px',
-                color: 'var(--text-primary)',
-                lineHeight: 1.8,
-              }}
-            >
-              {selectedVerse.text.ko.slice(0, 20)}...
-            </p>
+          <div style={{
+            position: 'absolute',
+            inset: 0,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}>
+            <VerseCard verse={selectedVerse} />
           </div>
         )}
       </div>
+
+      {/* ExportCard (화면 밖) */}
+      {selectedVerse && (
+        <ExportCard ref={exportCardRef} verse={selectedVerse} />
+      )}
 
       {/* 버튼 영역 */}
       {selectedVerse && (
@@ -153,20 +162,23 @@ export default function HomeClient({ verses }: HomeClientProps) {
         >
           <button
             onClick={handleSave}
+            disabled={saveState === 'saving'}
             style={{
-              background: 'var(--purple-light)',
-              color: 'var(--purple-dark)',
+              background: saveState === 'error' ? 'var(--green-accent)' : 'var(--purple-light)',
+              color: saveState === 'error' ? 'var(--green-text)' : 'var(--purple-dark)',
               border: 'none',
               borderRadius: '12px',
               padding: '14px 24px',
               fontFamily: 'NanumSquareNeo, sans-serif',
               fontWeight: 700,
               fontSize: '14px',
-              cursor: 'pointer',
+              cursor: saveState === 'saving' ? 'not-allowed' : 'pointer',
               width: '100%',
+              opacity: saveState === 'saving' ? 0.5 : 1,
+              transition: 'background 200ms, color 200ms',
             }}
           >
-            저장하기
+            {saveButtonLabel}
           </button>
           <button
             onClick={handleReset}

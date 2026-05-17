@@ -21,9 +21,12 @@
     {
       "step": 3,
       "name": "full-integration",
-      "status": "pending",
-      "summary": ""
+      "status": "completed",
+      "summary": "HomeClient.tsx에 VerseCard·ExportCard 통합 — saveState('idle'|'saving'|'success'|'error') 상태 관리, 저장 핸들러, 버튼 텍스트 동적 변경, 에러 시 #BFFFCC 배경 처리 완료",
+      "started_at": "2026-05-17T13:10:16+0900",
+      "completed_at": "2026-05-17T13:15:00+0900"
     }
   ],
+  "phase_status": "completed",
   "created_at": "2026-05-17T13:07:39+0900"
 }

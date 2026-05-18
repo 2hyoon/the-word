@@ -2,7 +2,6 @@
 
 import { forwardRef, useImperativeHandle, useRef } from 'react'
 import type { Verse } from '@/types'
-import { CATEGORIES } from '@/types'
 import { captureAndSave } from '@/lib/image'
 
 export interface ExportCardHandle {
@@ -18,11 +17,6 @@ const ExportCard = forwardRef<ExportCardHandle, { verse: Verse }>(
         await captureAndSave(cardRef)
       },
     }))
-
-    const cat = CATEGORIES.find(c => c.id === verse.categoryId)
-    const badgeBg = cat ? cat.color + '26' : '#C4B8F026'
-    const badgeBorder = cat ? cat.color + '4D' : '#C4B8F04D'
-    const badgeText = cat ? cat.textColor : '#534AB7'
 
     return (
       <div style={{ position: 'absolute', left: '-9999px', top: 0 }}>
@@ -46,16 +40,16 @@ const ExportCard = forwardRef<ExportCardHandle, { verse: Verse }>(
           <span style={{
             display: 'inline-block',
             alignSelf: 'flex-start',
-            background: badgeBg,
-            border: `1px solid ${badgeBorder}`,
+            background: '#C4B8F026',
+            border: '1px solid #C4B8F04D',
             borderRadius: '9999px',
             padding: '4px 12px',
             fontSize: '14px',
             fontWeight: 700,
-            color: badgeText,
+            color: '#534AB7',
             marginBottom: '24px',
           }}>
-            {verse.category.ko}
+            the Word
           </span>
 
           <p style={{

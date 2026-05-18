@@ -1,16 +1,10 @@
 import type { Verse } from '@/types'
-import { CATEGORIES } from '@/types'
 
 interface VerseCardProps {
   verse: Verse
 }
 
 export default function VerseCard({ verse }: VerseCardProps) {
-  const cat = CATEGORIES.find(c => c.id === verse.categoryId)
-  const badgeBg = cat ? cat.color + '26' : '#C4B8F026'   // opacity ~15%
-  const badgeBorder = cat ? cat.color + '4D' : '#C4B8F04D' // opacity ~30%
-  const badgeText = cat ? cat.textColor : '#534AB7'
-
   return (
     <div style={{
       background: '#FFFFFF',
@@ -24,24 +18,25 @@ export default function VerseCard({ verse }: VerseCardProps) {
     }}>
       <span style={{
         display: 'inline-block',
-        background: badgeBg,
-        border: `1px solid ${badgeBorder}`,
+        background: '#C4B8F026',
+        border: '1px solid #C4B8F04D',
         borderRadius: '9999px',
         padding: '4px 12px',
         fontSize: '12px',
         fontWeight: 700,
-        color: badgeText,
+        color: '#534AB7',
+        marginBottom: '16px',
       }}>
-        {verse.category.ko}
+        the Word
       </span>
 
       <p style={{
-        marginTop: '16px',
         fontSize: '17px',
         fontWeight: 400,
         lineHeight: 1.75,
         color: 'var(--text-primary)',
         wordBreak: 'keep-all',
+        margin: 0,
       }}>
         {verse.text.ko}
       </p>

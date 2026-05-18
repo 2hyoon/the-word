@@ -16,8 +16,10 @@ export async function captureAndSave(cardRef: RefObject<HTMLDivElement | null>):
 
   const dataUrl = canvas.toDataURL('image/png')
 
-  // iOS Safari: navigator.share with File API
-  if (typeof navigator !== 'undefined' && navigator.share && navigator.canShare) {
+  const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent)
+
+  // iOS Safari: <a download> 미지원 대비 navigator.share 사용
+  if (isIOS && navigator.share && navigator.canShare) {
     const blob = await (await fetch(dataUrl)).blob()
     const file = new File([blob], 'theword.png', { type: 'image/png' })
     if (navigator.canShare({ files: [file] })) {
@@ -26,7 +28,7 @@ export async function captureAndSave(cardRef: RefObject<HTMLDivElement | null>):
     }
   }
 
-  // Desktop fallback
+  // Desktop: 다운로드 폴더로 직접 저장
   const a = document.createElement('a')
   a.href = dataUrl
   a.download = 'theword.png'

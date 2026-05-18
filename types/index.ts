@@ -3,5 +3,5 @@ export interface Verse {
   book: { ko: string; en: string }
   chapter: number
   verse: number
-  text: { ko: string }
+  text: { ko: string; en?: string }
 }

@@ -14,6 +14,7 @@ interface HomeClientProps {
 export default function HomeClient({ verses }: HomeClientProps) {
   const [selectedVerse, setSelectedVerse] = useState<Verse | null>(null)
   const [saveState, setSaveState] = useState<'idle' | 'saving' | 'success' | 'error'>('idle')
+  const [lang, setLang] = useState<'ko' | 'en'>('ko')
   const exportCardRef = useRef<ExportCardHandle>(null)
 
   const handleReset = () => {
@@ -34,12 +35,19 @@ export default function HomeClient({ verses }: HomeClientProps) {
     }
   }
 
-  const saveButtonLabel = {
-    idle:    '저장하기',
-    saving:  '저장 중...',
-    success: '저장됐어요 ✓',
-    error:   '저장에 실패했어요. 다시 시도해주세요',
-  }[saveState]
+  const ui = lang === 'ko'
+    ? {
+        subtitle: '마음이 머무는 곳을 터치해보세요',
+        save:    { idle: '저장하기', saving: '저장 중...', success: '저장됐어요 ✓', error: '저장에 실패했어요. 다시 시도해주세요' },
+        reset:   '다시 뽑기',
+      }
+    : {
+        subtitle: 'Touch where your heart rests',
+        save:    { idle: 'Save', saving: 'Saving...', success: 'Saved ✓', error: 'Failed to save. Please try again' },
+        reset:   'Draw again',
+      }
+
+  const saveButtonLabel = ui.save[saveState]
 
   return (
     <main
@@ -51,6 +59,28 @@ export default function HomeClient({ verses }: HomeClientProps) {
         background: 'var(--bg)',
       }}
     >
+      {/* 언어 토글 */}
+      <button
+        onClick={() => setLang(l => l === 'ko' ? 'en' : 'ko')}
+        style={{
+          position: 'fixed',
+          top: '20px',
+          right: '20px',
+          zIndex: 20,
+          background: 'var(--purple-light)',
+          color: 'var(--purple-dark)',
+          border: 'none',
+          borderRadius: '6px',
+          padding: '6px 12px',
+          fontFamily: 'NanumSquareNeo, sans-serif',
+          fontWeight: 700,
+          fontSize: '13px',
+          cursor: 'pointer',
+        }}
+      >
+        {lang === 'ko' ? 'EN' : '한'}
+      </button>
+
       {/* 앱 타이틀 */}
       <div style={{ position: 'fixed', top: '28px', left: 0, right: 0, textAlign: 'center', zIndex: 10, pointerEvents: 'none' }}>
         <h1
@@ -82,7 +112,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
               lineHeight: 1.7,
             }}
           >
-            마음이 머무는 곳을 터치해보세요
+            {ui.subtitle}
           </p>
         )}
       </div>
@@ -108,10 +138,10 @@ export default function HomeClient({ verses }: HomeClientProps) {
             overflowY: 'auto',
           }}
         >
-          <VerseCard verse={selectedVerse} />
+          <VerseCard verse={selectedVerse} lang={lang} />
 
           {/* ExportCard (화면 밖) */}
-          <ExportCard ref={exportCardRef} verse={selectedVerse} />
+          <ExportCard ref={exportCardRef} verse={selectedVerse} lang={lang} />
 
           {/* 버튼 영역 */}
           <div
@@ -130,7 +160,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
                 background: saveState === 'error' ? 'var(--green-accent)' : 'var(--purple-light)',
                 color: saveState === 'error' ? 'var(--green-text)' : 'var(--purple-dark)',
                 border: 'none',
-                borderRadius: '12px',
+                borderRadius: '6px',
                 padding: '14px 24px',
                 fontFamily: 'NanumSquareNeo, sans-serif',
                 fontWeight: 700,
@@ -149,7 +179,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
                 background: 'var(--green-accent)',
                 color: 'var(--green-text)',
                 border: 'none',
-                borderRadius: '12px',
+                borderRadius: '6px',
                 padding: '14px 24px',
                 fontFamily: 'NanumSquareNeo, sans-serif',
                 fontWeight: 700,
@@ -158,7 +188,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
                 width: '100%',
               }}
             >
-              다시 뽑기
+              {ui.reset}
             </button>
           </div>
         </div>

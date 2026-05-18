@@ -8,8 +8,8 @@ export interface ExportCardHandle {
   save: () => Promise<void>
 }
 
-const ExportCard = forwardRef<ExportCardHandle, { verse: Verse }>(
-  function ExportCard({ verse }, ref) {
+const ExportCard = forwardRef<ExportCardHandle, { verse: Verse; lang: 'ko' | 'en' }>(
+  function ExportCard({ verse, lang }, ref) {
     const cardRef = useRef<HTMLDivElement>(null)
 
     useImperativeHandle(ref, () => ({
@@ -57,11 +57,11 @@ const ExportCard = forwardRef<ExportCardHandle, { verse: Verse }>(
             fontWeight: 400,
             lineHeight: 1.8,
             color: '#1A1A1A',
-            wordBreak: 'keep-all',
+            wordBreak: lang === 'ko' ? 'keep-all' : 'normal',
             margin: 0,
             marginBottom: '24px',
           }}>
-            {verse.text.ko}
+            {lang === 'en' && verse.text.en ? verse.text.en : verse.text.ko}
           </p>
 
           <p style={{
@@ -71,7 +71,7 @@ const ExportCard = forwardRef<ExportCardHandle, { verse: Verse }>(
             textAlign: 'right',
             margin: 0,
           }}>
-            — {verse.book.ko} {verse.chapter}:{verse.verse}
+            — {lang === 'en' ? `${verse.book.en} ${verse.chapter}:${verse.verse}` : `${verse.book.ko} ${verse.chapter}:${verse.verse}`}
           </p>
 
           <div style={{

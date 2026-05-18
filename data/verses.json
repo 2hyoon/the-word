@@ -8,23 +8,12 @@
     "chapter": 34,
     "verse": 18,
     "text": {
-      "ko": "여호와는 마음이 상한 자를 가까이 하시고 충심으로 통회하는 자를 구원하시는도다"
+      "ko": "여호와는 마음이 상한 자를 가까이 하시고 충심으로 통회하는 자를 구원하시는도다",
+      "en": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit."
     }
   },
   {
     "id": 2,
-    "book": {
-      "ko": "마태복음",
-      "en": "Matthew"
-    },
-    "chapter": 11,
-    "verse": 28,
-    "text": {
-      "ko": "수고하고 무거운 짐 진 자들아 다 내게로 오라 내가 너희를 쉬게 하리라"
-    }
-  },
-  {
-    "id": 3,
     "book": {
       "ko": "이사야",
       "en": "Isaiah"
@@ -32,95 +21,103 @@
     "chapter": 41,
     "verse": 10,
     "text": {
-      "ko": "두려워하지 말라 내가 너와 함께 함이라 놀라지 말라 나는 네 하나님이 됨이라"
+      "ko": "두려워하지 말라 내가 너와 함께 함이라 놀라지 말라 나는 네 하나님이 됨이라 내가 너를 굳세게 하리라 참으로 너를 도와 주리라 참으로 나의 의로운 오른손으로 너를 붙들리라",
+      "en": "Don’t be afraid, for I am with you. Don’t be discouraged, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness."
     }
   },
   {
-    "id": 4,
-    "book": {
-      "ko": "시편",
-      "en": "Psalms"
-    },
-    "chapter": 46,
-    "verse": 1,
-    "text": {
-      "ko": "하나님은 우리의 피난처시요 힘이시니 환난 중에 만날 큰 도움이시라"
-    }
-  },
-  {
-    "id": 5,
-    "book": {
-      "ko": "고린도후서",
-      "en": "2 Corinthians"
-    },
-    "chapter": 4,
-    "verse": 17,
-    "text": {
-      "ko": "우리가 잠시 받는 환난의 경한 것이 지극히 크고 영원한 영광의 중한 것을 우리에게 이루게 함이니"
-    }
-  },
-  {
-    "id": 6,
-    "book": {
-      "ko": "로마서",
-      "en": "Romans"
-    },
-    "chapter": 8,
-    "verse": 18,
-    "text": {
-      "ko": "현재의 고난은 장차 우리에게 나타날 영광과 비교할 수 없도다"
-    }
-  },
-  {
-    "id": 7,
-    "book": {
-      "ko": "시편",
-      "en": "Psalms"
-    },
-    "chapter": 121,
-    "verse": 2,
-    "text": {
-      "ko": "나의 도움은 천지를 만드신 여호와에게서로다"
-    }
-  },
-  {
-    "id": 8,
-    "book": {
-      "ko": "이사야",
-      "en": "Isaiah"
-    },
-    "chapter": 40,
-    "verse": 31,
-    "text": {
-      "ko": "오직 여호와를 앙망하는 자는 새 힘을 얻으리니 독수리가 날개치며 올라감 같을 것이요"
-    }
-  },
-  {
-    "id": 9,
+    "id": 3,
     "book": {
       "ko": "빌립보서",
       "en": "Philippians"
     },
     "chapter": 4,
-    "verse": 6,
+    "verse": 13,
     "text": {
-      "ko": "아무것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라"
+      "ko": "내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라",
+      "en": "I can do all things through Christ, who strengthens me."
     }
   },
   {
-    "id": 10,
+    "id": 4,
     "book": {
       "ko": "요한복음",
       "en": "John"
     },
-    "chapter": 14,
-    "verse": 27,
+    "chapter": 3,
+    "verse": 16,
     "text": {
-      "ko": "평안을 너희에게 끼치노니 곧 나의 평안을 너희에게 주노라 내가 너희에게 주는 것은 세상이 주는 것과 같지 아니하니라"
+      "ko": "하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 그를 믿는 자마다 멸망하지 않고 영생을 얻게 하려 하심이라",
+      "en": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life."
     }
   },
   {
-    "id": 11,
+    "id": 5,
+    "book": {
+      "ko": "로마서",
+      "en": "Romans"
+    },
+    "chapter": 8,
+    "verse": 28,
+    "text": {
+      "ko": "우리가 알거니와 하나님을 사랑하는 자 곧 그의 뜻대로 부르심을 입은 자들에게는 모든 것이 합력하여 선을 이루느니라",
+      "en": "We know that all things work together for good for those who love God, to those who are called according to his purpose."
+    }
+  },
+  {
+    "id": 6,
+    "book": {
+      "ko": "잠언",
+      "en": "Proverbs"
+    },
+    "chapter": 3,
+    "verse": 5,
+    "text": {
+      "ko": "너는 마음을 다하여 여호와를 신뢰하고 네 명철을 의지하지 말라",
+      "en": "Trust in Yahweh with all your heart, and don’t lean on your own understanding."
+    }
+  },
+  {
+    "id": 7,
+    "book": {
+      "ko": "잠언",
+      "en": "Proverbs"
+    },
+    "chapter": 3,
+    "verse": 6,
+    "text": {
+      "ko": "너는 범사에 그를 인정하라 그리하면 네 길을 지도하시리라",
+      "en": "In all your ways acknowledge him, and he will make your paths straight."
+    }
+  },
+  {
+    "id": 8,
+    "book": {
+      "ko": "여호수아",
+      "en": "Joshua"
+    },
+    "chapter": 1,
+    "verse": 9,
+    "text": {
+      "ko": "내가 네게 명령한 것이 아니냐 강하고 담대하라 두려워하지 말며 놀라지 말라 네가 어디로 가든지 네 하나님 여호와가 너와 함께 하느니라 하시니라",
+      "en": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid, neither be dismayed: for Yahweh your God is with you wherever you go."
+    }
+  },
+  {
+    "id": 9,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 23,
+    "verse": 1,
+    "text": {
+      "ko": "여호와는 나의 목자시니 내게 부족함이 없으리로다",
+      "en": "Yahweh is my shepherd. I shall lack nothing."
+    }
+  },
+  {
+    "id": 10,
     "book": {
       "ko": "시편",
       "en": "Psalms"
@@ -128,179 +125,103 @@
     "chapter": 23,
     "verse": 4,
     "text": {
-      "ko": "내가 사망의 음침한 골짜기로 다닐지라도 해를 두려워하지 않을 것은 주께서 나와 함께 하심이라"
+      "ko": "내가 사망의 음침한 골짜기로 다닐지라도 해를 두려워하지 않을 것은 주께서 나와 함께 하심이라 주의 지팡이와 막대기가 나를 안위하시나이다",
+      "en": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me."
+    }
+  },
+  {
+    "id": 11,
+    "book": {
+      "ko": "빌립보서",
+      "en": "Philippians"
+    },
+    "chapter": 4,
+    "verse": 6,
+    "text": {
+      "ko": "아무 것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라",
+      "en": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
     }
   },
   {
     "id": 12,
     "book": {
-      "ko": "디모데후서",
-      "en": "2 Timothy"
+      "ko": "빌립보서",
+      "en": "Philippians"
     },
-    "chapter": 1,
+    "chapter": 4,
     "verse": 7,
     "text": {
-      "ko": "하나님이 우리에게 주신 것은 두려워하는 마음이 아니요 오직 능력과 사랑과 절제하는 마음이니"
+      "ko": "그리하면 모든 지각에 뛰어난 하나님의 평강이 그리스도 예수 안에서 너희 마음과 생각을 지키시리라",
+      "en": "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
     }
   },
   {
     "id": 13,
     "book": {
-      "ko": "이사야",
-      "en": "Isaiah"
+      "ko": "마태복음",
+      "en": "Matthew"
     },
-    "chapter": 43,
-    "verse": 1,
+    "chapter": 6,
+    "verse": 33,
     "text": {
-      "ko": "두려워하지 말라 내가 너를 구속하였고 내가 너를 지명하여 불렀나니 너는 내 것이라"
+      "ko": "그런즉 너희는 먼저 그의 나라와 그의 의를 구하라 그리하면 이 모든 것을 너희에게 더하시리라",
+      "en": "But seek first God’s Kingdom, and his righteousness; and all these things will be given to you as well."
     }
   },
   {
     "id": 14,
     "book": {
-      "ko": "시편",
-      "en": "Psalms"
+      "ko": "마태복음",
+      "en": "Matthew"
     },
-    "chapter": 56,
-    "verse": 3,
+    "chapter": 11,
+    "verse": 28,
     "text": {
-      "ko": "내가 두려워하는 날에는 주를 의지하리이다"
+      "ko": "수고하고 무거운 짐 진 자들아 다 내게로 오라 내가 너희를 쉬게 하리라",
+      "en": "Come to me, all you who labor and are heavily burdened, and I will give you rest."
     }
   },
   {
     "id": 15,
     "book": {
-      "ko": "로마서",
-      "en": "Romans"
+      "ko": "갈라디아서",
+      "en": "Galatians"
     },
-    "chapter": 8,
-    "verse": 38,
+    "chapter": 2,
+    "verse": 20,
     "text": {
-      "ko": "사망이나 생명이나 천사들이나 권세자들이나 현재 일이나 장래 일이나 능력이나 우리를 하나님의 사랑에서 끊을 수 없으리라"
+      "ko": "내가 그리스도와 함께 십자가에 못 박혔나니 그런즉 이제는 내가 사는 것이 아니요 오직 내 안에 그리스도께서 사시는 것이라 이제 내가 육체 가운데 사는 것은 나를 사랑하사 나를 위하여 자기 자신을 버리신 하나님의 아들을 믿는 믿음 안에서 사는 것이라",
+      "en": "I have been crucified with Christ, and it is no longer I who live, but Christ lives in me. That life which I now live in the flesh, I live by faith in the Son of God, who loved me, and gave himself up for me."
     }
   },
   {
     "id": 16,
     "book": {
-      "ko": "마태복음",
-      "en": "Matthew"
+      "ko": "데살로니가전서",
+      "en": "1 Thessalonians"
     },
-    "chapter": 6,
-    "verse": 34,
+    "chapter": 5,
+    "verse": 16,
     "text": {
-      "ko": "내일 일을 위하여 염려하지 말라 내일 일은 내일이 염려할 것이요 한 날의 괴로움은 그 날로 족하니라"
+      "ko": "항상 기뻐하라",
+      "en": "Always rejoice."
     }
   },
   {
     "id": 17,
     "book": {
-      "ko": "고린도전서",
-      "en": "1 Corinthians"
+      "ko": "데살로니가전서",
+      "en": "1 Thessalonians"
     },
-    "chapter": 13,
-    "verse": 4,
+    "chapter": 5,
+    "verse": 17,
     "text": {
-      "ko": "사랑은 오래 참고 사랑은 온유하며 시기하지 아니하며 사랑은 자랑하지 아니하며 교만하지 아니하며"
+      "ko": "쉬지 말고 기도하라",
+      "en": "Pray without ceasing."
     }
   },
   {
     "id": 18,
-    "book": {
-      "ko": "에베소서",
-      "en": "Ephesians"
-    },
-    "chapter": 4,
-    "verse": 32,
-    "text": {
-      "ko": "서로 친절하게 하며 불쌍히 여기며 서로 용서하기를 하나님이 그리스도 안에서 너희를 용서하심과 같이 하라"
-    }
-  },
-  {
-    "id": 19,
-    "book": {
-      "ko": "로마서",
-      "en": "Romans"
-    },
-    "chapter": 12,
-    "verse": 18,
-    "text": {
-      "ko": "할 수 있거든 너희로서는 모든 사람과 더불어 화목하라"
-    }
-  },
-  {
-    "id": 20,
-    "book": {
-      "ko": "마태복음",
-      "en": "Matthew"
-    },
-    "chapter": 6,
-    "verse": 14,
-    "text": {
-      "ko": "너희가 사람의 잘못을 용서하면 너희 하늘 아버지께서도 너희 잘못을 용서하시려니와"
-    }
-  },
-  {
-    "id": 21,
-    "book": {
-      "ko": "요한복음",
-      "en": "John"
-    },
-    "chapter": 13,
-    "verse": 34,
-    "text": {
-      "ko": "새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라"
-    }
-  },
-  {
-    "id": 22,
-    "book": {
-      "ko": "잠언",
-      "en": "Proverbs"
-    },
-    "chapter": 17,
-    "verse": 17,
-    "text": {
-      "ko": "친구는 사랑이 끊이지 아니하고 형제는 위급한 때를 위하여 났느니라"
-    }
-  },
-  {
-    "id": 23,
-    "book": {
-      "ko": "골로새서",
-      "en": "Colossians"
-    },
-    "chapter": 3,
-    "verse": 13,
-    "text": {
-      "ko": "주께서 너희를 용서하신 것과 같이 너희도 그리하고"
-    }
-  },
-  {
-    "id": 24,
-    "book": {
-      "ko": "베드로전서",
-      "en": "1 Peter"
-    },
-    "chapter": 4,
-    "verse": 8,
-    "text": {
-      "ko": "무엇보다도 뜨겁게 서로 사랑할지니 사랑은 허다한 죄를 덮느니라"
-    }
-  },
-  {
-    "id": 25,
-    "book": {
-      "ko": "시편",
-      "en": "Psalms"
-    },
-    "chapter": 100,
-    "verse": 4,
-    "text": {
-      "ko": "감사함으로 그의 문에 들어가며 찬송함으로 그의 궁정에 들어가서 그에게 감사하며 그의 이름을 송축할지어다"
-    }
-  },
-  {
-    "id": 26,
     "book": {
       "ko": "데살로니가전서",
       "en": "1 Thessalonians"
@@ -308,83 +229,12 @@
     "chapter": 5,
     "verse": 18,
     "text": {
-      "ko": "범사에 감사하라 이것이 그리스도 예수 안에서 너희를 향하신 하나님의 뜻이니라"
+      "ko": "범사에 감사하라 이것이 그리스도 예수 안에서 너희를 향하신 하나님의 뜻이니라",
+      "en": "In everything give thanks, for this is the will of God in Christ Jesus toward you."
     }
   },
   {
-    "id": 27,
-    "book": {
-      "ko": "야고보서",
-      "en": "James"
-    },
-    "chapter": 1,
-    "verse": 17,
-    "text": {
-      "ko": "온갖 좋은 은사와 온전한 선물이 다 위로부터 빛들의 아버지께로부터 내려오나니"
-    }
-  },
-  {
-    "id": 28,
-    "book": {
-      "ko": "시편",
-      "en": "Psalms"
-    },
-    "chapter": 107,
-    "verse": 1,
-    "text": {
-      "ko": "여호와께 감사하라 그는 선하시며 그 인자하심이 영원함이로다"
-    }
-  },
-  {
-    "id": 29,
-    "book": {
-      "ko": "빌립보서",
-      "en": "Philippians"
-    },
-    "chapter": 4,
-    "verse": 4,
-    "text": {
-      "ko": "주 안에서 항상 기뻐하라 내가 다시 말하노니 기뻐하라"
-    }
-  },
-  {
-    "id": 30,
-    "book": {
-      "ko": "시편",
-      "en": "Psalms"
-    },
-    "chapter": 118,
-    "verse": 24,
-    "text": {
-      "ko": "이 날은 여호와께서 정하신 것이라 이 날에 우리가 기뻐하고 즐거워하리로다"
-    }
-  },
-  {
-    "id": 31,
-    "book": {
-      "ko": "시편",
-      "en": "Psalms"
-    },
-    "chapter": 28,
-    "verse": 7,
-    "text": {
-      "ko": "여호와는 나의 힘과 나의 방패이시니 내 마음이 그를 의지하여 도움을 얻었도다"
-    }
-  },
-  {
-    "id": 32,
-    "book": {
-      "ko": "에베소서",
-      "en": "Ephesians"
-    },
-    "chapter": 5,
-    "verse": 20,
-    "text": {
-      "ko": "범사에 우리 주 예수 그리스도의 이름으로 항상 아버지 하나님께 감사하며"
-    }
-  },
-  {
-    "id": 33,
+    "id": 19,
     "book": {
       "ko": "예레미야",
       "en": "Jeremiah"
@@ -392,7 +242,190 @@
     "chapter": 29,
     "verse": 11,
     "text": {
-      "ko": "너희를 향한 나의 생각을 내가 아나니 평안이요 재앙이 아니니라 너희에게 미래와 희망을 주는 것이니라"
+      "ko": "여호와의 말씀이니라 너희를 향한 나의 생각을 내가 아나니 평안이요 재앙이 아니니라 너희에게 미래와 희망을 주는 것이니라",
+      "en": "For I know the thoughts that I think toward you, says Yahweh, thoughts of peace, and not of evil, to give you hope and a future."
+    }
+  },
+  {
+    "id": 20,
+    "book": {
+      "ko": "로마서",
+      "en": "Romans"
+    },
+    "chapter": 12,
+    "verse": 2,
+    "text": {
+      "ko": "너희는 이 세대를 본받지 말고 오직 마음을 새롭게 함으로 변화를 받아 하나님의 선하시고 기뻐하시고 온전하신 뜻이 무엇인지 분별하도록 하라",
+      "en": "Don’t be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what is the good, well-pleasing, and perfect will of God."
+    }
+  },
+  {
+    "id": 21,
+    "book": {
+      "ko": "로마서",
+      "en": "Romans"
+    },
+    "chapter": 3,
+    "verse": 23,
+    "text": {
+      "ko": "모든 사람이 죄를 범하였으매 하나님의 영광에 이르지 못하더니",
+      "en": "for all have sinned, and fall short of the glory of God;"
+    }
+  },
+  {
+    "id": 22,
+    "book": {
+      "ko": "로마서",
+      "en": "Romans"
+    },
+    "chapter": 6,
+    "verse": 23,
+    "text": {
+      "ko": "죄의 슾은 사망이요 하나님의 은사는 그리스도 예수 우리 주 안에 있는 영생이니라",
+      "en": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord."
+    }
+  },
+  {
+    "id": 23,
+    "book": {
+      "ko": "로마서",
+      "en": "Romans"
+    },
+    "chapter": 5,
+    "verse": 8,
+    "text": {
+      "ko": "우리가 아직 죄인 되었을 때에 그리스도께서 우리를 위하여 죽으심으로 하나님께서 우리에 대한 자기의 사랑을 확증하셨느니라",
+      "en": "But God commends his own love toward us, in that while we were yet sinners, Christ died for us."
+    }
+  },
+  {
+    "id": 24,
+    "book": {
+      "ko": "고린도전서",
+      "en": "1 Corinthians"
+    },
+    "chapter": 13,
+    "verse": 4,
+    "text": {
+      "ko": "사랑은 언제나 오래 참고 사랑은 온유하며 시기하지 아니하며 사랑은 자랑하지 아니하며 교만하지 아니하며",
+      "en": "Love is patient and is kind; love doesn’t envy. Love doesn’t brag, is not proud,"
+    }
+  },
+  {
+    "id": 25,
+    "book": {
+      "ko": "고린도전서",
+      "en": "1 Corinthians"
+    },
+    "chapter": 13,
+    "verse": 13,
+    "text": {
+      "ko": "그런즉 믿음, 소망, 사랑, 이 세 가지는 항상 있을 것인데 그 중의 제일은 사랑이라",
+      "en": "But now remain faith, hope, and love: these three; but the greatest of these is love."
+    }
+  },
+  {
+    "id": 26,
+    "book": {
+      "ko": "에베소서",
+      "en": "Ephesians"
+    },
+    "chapter": 2,
+    "verse": 8,
+    "text": {
+      "ko": "너희는 그 은혜에 의하여 믿음으로 말미암아 구원을 받았으니 이것은 너희에게서 난 것이 아니요 하나님의 선물이라",
+      "en": "For by grace you have been saved through faith, and that not of yourselves; it is the gift of God,"
+    }
+  },
+  {
+    "id": 27,
+    "book": {
+      "ko": "에베소서",
+      "en": "Ephesians"
+    },
+    "chapter": 2,
+    "verse": 9,
+    "text": {
+      "ko": "행위에서 난 것이 아니니 이는 누구든지 자랑하지 못하게 함이라",
+      "en": "not of works, that no one would boast."
+    }
+  },
+  {
+    "id": 28,
+    "book": {
+      "ko": "히브리서",
+      "en": "Hebrews"
+    },
+    "chapter": 11,
+    "verse": 1,
+    "text": {
+      "ko": "믿음은 바라는 것들의 실상이요 보이지 않는 것들의 증거니",
+      "en": "Now faith is assurance of things hoped for, a conviction of things not seen."
+    }
+  },
+  {
+    "id": 29,
+    "book": {
+      "ko": "베드로전서",
+      "en": "1 Peter"
+    },
+    "chapter": 5,
+    "verse": 7,
+    "text": {
+      "ko": "너희 염려를 다 주께 맡기라 이는 그가 너희를 돌보심이라",
+      "en": "casting all your anxieties on him, because he cares for you."
+    }
+  },
+  {
+    "id": 30,
+    "book": {
+      "ko": "디모데후서",
+      "en": "2 Timothy"
+    },
+    "chapter": 1,
+    "verse": 7,
+    "text": {
+      "ko": "하나님이 우리에게 주신 것은 두려워하는 마음이 아니요 오직 능력과 사랑과 절제하는 마음이니",
+      "en": "For God didn’t give us a spirit of fear, but of power, love, and self-control."
+    }
+  },
+  {
+    "id": 31,
+    "book": {
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 40,
+    "verse": 31,
+    "text": {
+      "ko": "오직 여호와를 앙망하는 자는 새 힘을 얻으리니 독수리가 날개치며 올라감 같을 것이요 달음박질하여도 곤비하지 아니하겠고 걸어가도 피곤하지 아니하리로다",
+      "en": "But those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint."
+    }
+  },
+  {
+    "id": 32,
+    "book": {
+      "ko": "요한일서",
+      "en": "1 John"
+    },
+    "chapter": 4,
+    "verse": 18,
+    "text": {
+      "ko": "사랑 안에 두려움이 없고 온전한 사랑이 두려움을 내쫓나니 두려움에는 형벌이 있음이라 두려워하는 자는 사랑 안에서 온전히 이루지 못하였느니라",
+      "en": "There is no fear in love; but perfect love casts out fear, because fear has punishment. He who fears is not made perfect in love."
+    }
+  },
+  {
+    "id": 33,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 119,
+    "verse": 105,
+    "text": {
+      "ko": "주의 말씀은 내 발에 등이요 내 길에 빛이니이다",
+      "en": "Your word is a lamp to my feet, and a light for my path."
     }
   },
   {
@@ -401,98 +434,198 @@
       "ko": "잠언",
       "en": "Proverbs"
     },
-    "chapter": 3,
-    "verse": 5,
+    "chapter": 4,
+    "verse": 23,
     "text": {
-      "ko": "너는 마음을 다하여 여호와를 신뢰하고 네 명철을 의지하지 말라"
+      "ko": "모든 지킬 만한 것 중에 더욱 네 마음을 지키라 생명의 근원이 이에서 남이니라",
+      "en": "Keep your heart with all diligence, for out of it is the wellspring of life."
     }
   },
   {
     "id": 35,
     "book": {
-      "ko": "로마서",
-      "en": "Romans"
+      "ko": "마태복음",
+      "en": "Matthew"
     },
-    "chapter": 8,
-    "verse": 28,
+    "chapter": 7,
+    "verse": 7,
     "text": {
-      "ko": "하나님을 사랑하는 자 곧 그의 뜻대로 부르심을 입은 자들에게는 모든 것이 합력하여 선을 이루느니라"
+      "ko": "구하라 그리하면 너희에게 주실 것이요 찾으라 그리하면 찾아낼 것이요 문을 두드리라 그리하면 너희에게 열릴 것이니",
+      "en": "Ask, and it will be given you. Seek, and you will find. Knock, and it will be opened for you."
     }
   },
   {
     "id": 36,
     "book": {
-      "ko": "시편",
-      "en": "Psalms"
+      "ko": "요한복음",
+      "en": "John"
     },
-    "chapter": 37,
-    "verse": 4,
+    "chapter": 14,
+    "verse": 6,
     "text": {
-      "ko": "여호와를 기뻐하라 그가 네 마음의 소원을 네게 이루어 주시리로다"
+      "ko": "예수께서 이르시되 내가 곧 길이요 진리요 생명이니 나로 말미암지 않고는 아버지께로 올 자가 없느니라",
+      "en": "Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father, except through me.”"
     }
   },
   {
     "id": 37,
     "book": {
-      "ko": "히브리서",
-      "en": "Hebrews"
+      "ko": "요한복음",
+      "en": "John"
     },
-    "chapter": 11,
-    "verse": 1,
+    "chapter": 14,
+    "verse": 27,
     "text": {
-      "ko": "믿음은 바라는 것들의 실상이요 보이지 않는 것들의 증거니"
+      "ko": "평안을 너희에게 끼치노니 곧 나의 평안을 너희에게 주노라 내가 너희에게 주는 것은 세상이 주는 것과 같지 아니하니라 너희는 마음에 근심하지도 말고 두려워하지도 말라",
+      "en": "Peace I leave with you. My peace I give to you; not as the world gives, give I to you. Don’t let your heart be troubled, neither let it be fearful."
     }
   },
   {
     "id": 38,
     "book": {
-      "ko": "이사야",
-      "en": "Isaiah"
+      "ko": "로마서",
+      "en": "Romans"
     },
-    "chapter": 41,
-    "verse": 13,
+    "chapter": 10,
+    "verse": 9,
     "text": {
-      "ko": "나 여호와 너의 하나님이 네 오른손을 붙들고 네게 이르기를 두려워하지 말라 내가 너를 도우리라"
+      "ko": "네가 만일 네 입으로 예수를 주로 시인하며 또 하나님께서 그를 죽은 자 가운데서 살리신 것을 네 마음에 믿으면 구원을 받으리라",
+      "en": "that if you will confess with your mouth that Jesus is Lord, and believe in your heart that God raised him from the dead, you will be saved."
     }
   },
   {
     "id": 39,
     "book": {
-      "ko": "시편",
-      "en": "Psalms"
+      "ko": "로마서",
+      "en": "Romans"
     },
-    "chapter": 23,
+    "chapter": 12,
     "verse": 1,
     "text": {
-      "ko": "여호와는 나의 목자시니 내게 부족함이 없으리로다"
+      "ko": "그러므로 형제들아 내가 하나님의 모든 자비하심으로 너희를 권하노니 너희 몸을 하나님이 기뻐하시는 거룩한 산 제물로 드리라 이는 너희가 드릴 영적 예배니라",
+      "en": "I bags you therefore, brothers, by the mercies of God, to present your bodies a living sacrifice, holy, acceptable to God, which is your spiritual service."
     }
   },
   {
     "id": 40,
     "book": {
-      "ko": "요한계시록",
-      "en": "Revelation"
+      "ko": "고린도후서",
+      "en": "2 Corinthians"
     },
-    "chapter": 21,
-    "verse": 4,
+    "chapter": 5,
+    "verse": 17,
     "text": {
-      "ko": "모든 눈물을 그 눈에서 닦아 주시니 다시는 사망이 없고 애통하는 것이나 곡하는 것이나 아픈 것이 다시 있지 아니하리니"
+      "ko": "그런즉 누구든지 그리스도 안에 있으면 새로운 피조물이라 이전 것은 지나갔으니 보라 새 것이 되었도다",
+      "en": "Therefore if anyone is in Christ, he is a new creation. The old things have passed away. Behold, old things have become new."
     }
   },
+
   {
     "id": 41,
     "book": {
-      "ko": "잠언",
-      "en": "Proverbs"
+      "ko": "갈라디아서",
+      "en": "Galatians"
     },
-    "chapter": 16,
-    "verse": 9,
+    "chapter": 5,
+    "verse": 22,
     "text": {
-      "ko": "사람이 마음으로 자기의 길을 계획할지라도 그의 걸음을 인도하시는 이는 여호와시니라"
+      "ko": "오직 성령의 열매는 사랑과 희락과 화평과 오래 참음과 자비와 양선과 충성과",
+      "en": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,"
     }
   },
   {
     "id": 42,
+    "book": {
+      "ko": "갈라디아서",
+      "en": "Galatians"
+    },
+    "chapter": 5,
+    "verse": 23,
+    "text": {
+      "ko": "온유와 절제니 이같은 것을 금지할 법이 없느니라",
+      "en": "gentleness, and self-control. Against such things there is no law."
+    }
+  },
+  {
+    "id": 43,
+    "book": {
+      "ko": "에베소서",
+      "en": "Ephesians"
+    },
+    "chapter": 4,
+    "verse": 32,
+    "text": {
+      "ko": "서로 친절하게 하며 불쌍히 여기며 서로 용서하기를 하나님이 그리스도 안에서 너희를 용서하심과 같이 하라",
+      "en": "And be kind to one another, tenderhearted, forgiving each other, just as God also in Christ forgave you."
+    }
+  },
+  {
+    "id": 44,
+    "book": {
+      "ko": "골로새서",
+      "en": "Colossians"
+    },
+    "chapter": 3,
+    "verse": 23,
+    "text": {
+      "ko": "무슨 일을 하든지 마음을 다하여 주께 하듯 하고 사람에게 하듯 하지 말라",
+      "en": "Whatever you do, work heartily, as for the Lord, and not for men,"
+    }
+  },
+  {
+    "id": 45,
+    "book": {
+      "ko": "디모데후서",
+      "en": "2 Timothy"
+    },
+    "chapter": 3,
+    "verse": 16,
+    "text": {
+      "ko": "모든 성경은 하나님의 감동으로 된 것으로 교훈과 책망과 바르게 함과 의로 교육하기에 유익하니",
+      "en": "Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction which is in righteousness,"
+    }
+  },
+  {
+    "id": 46,
+    "book": {
+      "ko": "히브리서",
+      "en": "Hebrews"
+    },
+    "chapter": 4,
+    "verse": 12,
+    "text": {
+      "ko": "하나님의 말씀은 살아 있고 활력이 있어 좌우에 날선 어떤 검보다도 예리하여 혼과 영과 및 관절과 골수를 찔러 쪼개기까지 하며 또 마음의 생각과 뜻을 판단하나니",
+      "en": "For the word of God is living and active, and sharper than any two-edged sword, piercing even to the dividing of soul and spirit, of both joints and marrow, and is able to discern the thoughts and intentions of the heart."
+    }
+  },
+  {
+    "id": 47,
+    "book": {
+      "ko": "히브리서",
+      "en": "Hebrews"
+    },
+    "chapter": 11,
+    "verse": 6,
+    "text": {
+      "ko": "믿음이 없이는 하나님을 기쁘시게 하지 못하나니 하나님께 나아가는 자는 반드시 그가 계신 것과 또한 그가 자기를 찾는 자들에게 상 주시는 이심을 믿어야 할지니라",
+      "en": "Without faith it is impossible to be well pleasing to him, for he who comes to God must believe that he exists, and that he is a rewarder of those who seek him."
+    }
+  },
+  {
+    "id": 48,
+    "book": {
+      "ko": "히브리서",
+      "en": "Hebrews"
+    },
+    "chapter": 12,
+    "verse": 2,
+    "text": {
+      "ko": "믿음의 주요 또 온전하게 하시는 이인 예수를 바라보자 그는 그 앞에 있는 기쁨을 위하여 십자가를 참으사 부끄러움을 개의치 아니하시더니 하나님 보좌 우편에 앉으셨느니라",
+      "en": "looking to Jesus, the author and perfecter of faith, who for the joy that was set before him endured the cross, despising its shame, and has sat down at the right hand of the throne of God."
+    }
+  },
+  {
+    "id": 49,
     "book": {
       "ko": "야고보서",
       "en": "James"
@@ -500,79 +633,931 @@
     "chapter": 1,
     "verse": 5,
     "text": {
-      "ko": "너희 중에 누구든지 지혜가 부족하거든 모든 사람에게 후히 주시고 꾸짖지 아니하시는 하나님께 구하라 그리하면 주시리라"
+      "ko": "너희 중에 누구든지 지혜가 부족하거든 모든 사람에게 후히 주시고 꾸짖지 아니하시는 하나님께 구하라 그리하면 주시리라",
+      "en": "But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without upbraiding; and it will be given to him."
     }
   },
   {
-    "id": 43,
+    "id": 50,
     "book": {
-      "ko": "이사야",
-      "en": "Isaiah"
+      "ko": "야고보서",
+      "en": "James"
     },
-    "chapter": 30,
-    "verse": 21,
+    "chapter": 4,
+    "verse": 7,
     "text": {
-      "ko": "너희가 오른쪽으로 치우치든지 왼쪽으로 치우치든지 네 뒤에서 말소리가 들려 이르기를 이것이 바른 길이니 너희는 이리로 가라 할 것이며"
+      "ko": "그런즉 너희는 하나님께 복종할지어다 마귀를 대적하라 그리하면 너희를 피하리라",
+      "en": "Be subject therefore to God. But resist the devil, and he will flee from you."
     }
   },
   {
-    "id": 44,
+    "id": 51,
+    "book": {
+      "ko": "베드로전서",
+      "en": "1 Peter"
+    },
+    "chapter": 2,
+    "verse": 9,
+    "text": {
+      "ko": "그러나 너희는 택하신 족속이요 왕 같은 제사장들이요 거룩한 나라요 그의 소유가 된 백성이니 이는 너희를 어두운 데서 불러 내어 그의 기이한 빛에 들어가게 하신 이의 아름다운 덕을 선포하게 하려 하심이라",
+      "en": "But you are a chosen race, a royal priesthood, a holy nation, a people for God’s own possession, that you may proclaim the excellence of him who called you out of darkness into his marvelous light:"
+    }
+  },
+  {
+    "id": 52,
+    "book": {
+      "ko": "요한일서",
+      "en": "1 John"
+    },
+    "chapter": 1,
+    "verse": 9,
+    "text": {
+      "ko": "만일 우리가 우리 죄를 자백하면 그는 미쁘시고 의로우사 우리 죄를 사하시며 우리를 모든 불의에서 깨끗하게 하실 것이요",
+      "en": "If we confess our sins, he is faithful and righteous to forgive us our sins, and to cleanse us from all unrighteousness."
+    }
+  },
+  {
+    "id": 53,
+    "book": {
+      "ko": "요한계시록",
+      "en": "Revelation"
+    },
+    "chapter": 3,
+    "verse": 20,
+    "text": {
+      "ko": "볼지어다 내가 문 밖에 서서 두드리노니 누구든지 내 음성을 듣고 문을 열면 내가 그에게로 들어가 그와 더불어 먹고 그는 나와 더불어 먹으라",
+      "en": "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him, and will dine with him, and he with me."
+    }
+  },
+  {
+    "id": 54,
     "book": {
       "ko": "시편",
       "en": "Psalms"
     },
-    "chapter": 32,
-    "verse": 8,
+    "chapter": 1,
+    "verse": 1,
     "text": {
-      "ko": "내가 네 갈 길을 가르쳐 보이고 너를 주목하여 훈계하리로다"
+      "ko": "복 있는 사람은 악인들의 꾀를 따르지 아니하며 죄인들의 길에 서지 아니하며 오만한 자들의 자리에 앉지 아니하고",
+      "en": "Blessed is the man who doesn’t walk in the counsel of the wicked, nor stand on the path of sinners, nor sit in the seat of scoffers:"
     }
   },
   {
-    "id": 45,
+    "id": 55,
     "book": {
-      "ko": "요한복음",
-      "en": "John"
+      "ko": "시편",
+      "en": "Psalms"
     },
-    "chapter": 16,
+    "chapter": 1,
+    "verse": 2,
+    "text": {
+      "ko": "오직 여호와의 율법을 즐거워하여 그의 율법을 주야로 묵상하는도다",
+      "en": "but his delight is in Yahweh’s law. On his law he meditates day and night."
+    }
+  },
+  {
+    "id": 56,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 19,
+    "verse": 14,
+    "text": {
+      "ko": "나의 반석이시요 나의 구속자이신 여호와여 내 입의 말과 마음의 묵상이 주님 앞에 열납되기를 원하나이다",
+      "en": "Let the words of my mouth and the meditation of my heart be acceptable in your sight, Yahweh, my rock, and my redeemer."
+    }
+  },
+  {
+    "id": 57,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 27,
+    "verse": 1,
+    "text": {
+      "ko": "여호와는 나의 빛이요 나의 구원이시니 내가 누구를 두려워하리요 여호와는 내 생명의 능력이시니 내가 누구를 무서워하리요",
+      "en": "Yahweh is my light and my salvation. Whom shall I fear? Yahweh is the strength of my life. Of whom shall I be afraid?"
+    }
+  },
+  {
+    "id": 58,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 37,
+    "verse": 4,
+    "text": {
+      "ko": "또 여호와를 기뻐하라 그가 네 마음의 소원을 네게 이루어 주시리로다",
+      "en": "Also delight yourself in Yahweh, and he will give you the desires of your heart."
+    }
+  },
+  {
+    "id": 59,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 37,
+    "verse": 5,
+    "text": {
+      "ko": "네 길을 여호와께 맡기라 그를 의지하면 그가 이루시고",
+      "en": "Commit your way to Yahweh. Trust also in him, and he will do this:"
+    }
+  },
+  {
+    "id": 60,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 46,
+    "verse": 1,
+    "text": {
+      "ko": "하나님은 우리의 피난처시요 힘이시니 환난 중에 만날 큰 도움이시라",
+      "en": "God is our refuge and strength, a very present help in trouble."
+    }
+  },
+  {
+    "id": 61,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 46,
+    "verse": 10,
+    "text": {
+      "ko": "이르시기를 너희는 가만히 있어 내가 하나님 됨을 알지어다 내가 뭇 나라 중에서 높임을 받으리라 내가 세계 중에서 높임을 받으리라 하시도다",
+      "en": "“Be still, and know that I am God. I will be exalted among the nations. I will be exalted in the earth.”"
+    }
+  },
+  {
+    "id": 62,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 51,
+    "verse": 10,
+    "text": {
+      "ko": "하나님이여 내 속에 정한 마음을 창조하시고 내 안에 정직한 영을 새롭게 하소서",
+      "en": "Create in me a clean heart, O God. Renew a right spirit within me."
+    }
+  },
+  {
+    "id": 63,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 55,
+    "verse": 22,
+    "text": {
+      "ko": "네 짐을 여호와께 맡기라 그가 너를 붙드시고 의인의 요동함을 영원히 허락하지 아니하시리로다",
+      "en": "Cast your burden on Yahweh, and he will sustain you. He will never allow the righteous to be moved."
+    }
+  },
+  {
+    "id": 64,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 62,
+    "verse": 1,
+    "text": {
+      "ko": "나의 영혼이 잠잠히 하나님만 바람이여 나의 구원이 그에게서 나오는도다",
+      "en": "My soul rests in silence for God alone. My salvation comes from him."
+    }
+  },
+  {
+    "id": 65,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 62,
+    "verse": 5,
+    "text": {
+      "ko": "나의 영혼아 잠잠히 하나님만 바라라 무릇 나의 소망이 그로부터 나오는도다",
+      "en": "My soul, wait in silence for God alone, for my expectation is from him."
+    }
+  },
+  {
+    "id": 66,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 84,
+    "verse": 11,
+    "text": {
+      "ko": "여호와 하나님은 해요 방패시라 여호와께서 은혜와 영화를 주시며 정직하게 행하는 자에게 좋은 것을 아끼지 아니하실 것임이니이다",
+      "en": "For Yahweh God is a sun and a shield. Yahweh will give grace and glory. He withholds no good thing from those who walk blamelessly."
+    }
+  },
+  {
+    "id": 67,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 91,
+    "verse": 1,
+    "text": {
+      "ko": "지존자의 은밀한 곳에 거주하며 전능자의 그늘 아래에 사는 자여,",
+      "en": "He who dwells in the secret place of the Most High will rest in the shadow of the Almighty."
+    }
+  },
+  {
+    "id": 68,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 100,
+    "verse": 4,
+    "text": {
+      "ko": "감사함으로 그의 문에 들어가며 찬송함으로 그의 궁정에 들어가서 그에게 감사하며 그의 이름을 송축할지어다",
+      "en": "Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name."
+    }
+  },
+  {
+    "id": 69,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 103,
+    "verse": 1,
+    "text": {
+      "ko": "내 영혼아 여호와를 송축하라 내 속에 있는 것들아 다 그의 거룩한 이름을 송축하라",
+      "en": "Praise Yahweh, my soul! All that is within me, praise his holy name!"
+    }
+  },
+  {
+    "id": 70,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 103,
+    "verse": 2,
+    "text": {
+      "ko": "내 영혼아 여호와를 송축하며 그의 모든 은택을 잊지 말지어다",
+      "en": "Praise Yahweh, my soul, and don’t forget all his benefits;"
+    }
+  },
+  {
+    "id": 71,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 118,
+    "verse": 24,
+    "text": {
+      "ko": "이 날은 여호와께서 정하신 것이라 이 날에 우리가 기뻐하고 즐거워하리로다",
+      "en": "This is the day which Yahweh has made. We will rejoice and be glad in it."
+    }
+  },
+  {
+    "id": 72,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 121,
+    "verse": 1,
+    "text": {
+      "ko": "내가 산을 향하여 눈을 들리라 나의 도움이 어디서 올까",
+      "en": "I will lift up my eyes to the hills. Where does my help come from?"
+    }
+  },
+  {
+    "id": 73,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 121,
+    "verse": 2,
+    "text": {
+      "ko": "나의 도움은 천지를 지으신 여호와에게서로다",
+      "en": "My help comes from Yahweh, who made heaven and earth."
+    }
+  },
+  {
+    "id": 74,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 133,
+    "verse": 1,
+    "text": {
+      "ko": "보라 형제가 연합하여 동거함이 어찌 그리 선하고 아름다운고",
+      "en": "See how good and how pleasant it is for brothers to live together in unity!"
+    }
+  },
+  {
+    "id": 75,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 139,
     "verse": 13,
     "text": {
-      "ko": "진리의 성령이 오시면 그가 너희를 모든 진리 가운데로 인도하시리니"
+      "ko": "주께서 내 내장을 지으시며 나의 모태에서 나를 만드셨나이다",
+      "en": "For you formed my inmost parts. You knit me together in my mother’s womb."
     }
   },
   {
-    "id": 46,
+    "id": 76,
+    "book": {
+      "ko": "시편",
+      "en": "Psalms"
+    },
+    "chapter": 139,
+    "verse": 14,
+    "text": {
+      "ko": "내가 주께 감사하옴은 나를 지으심이 신묘막측하심이라 주께서 하시는 일이 기이함을 내 영혼이 잘 아나이다",
+      "en": "I will give thanks to you, for I am fearfully and wonderfully made. Your works are wonderful. My soul knows that very well."
+    }
+  },
+  {
+    "id": 77,
     "book": {
       "ko": "잠언",
       "en": "Proverbs"
     },
-    "chapter": 3,
+    "chapter": 1,
+    "verse": 7,
+    "text": {
+      "ko": "여호와를 경외하는 것이 지식의 근본이거늘 미련한 자는 지혜와 훈계를 멸시하느니라",
+      "en": "The fear of Yahweh is the beginning of knowledge; but the foolish despise wisdom and instruction."
+    }
+  },
+  {
+    "id": 78,
+    "book": {
+      "ko": "잠언",
+      "en": "Proverbs"
+    },
+    "chapter": 16,
+    "verse": 3,
+    "text": {
+      "ko": "너의 행사를 여호와께 맡기라 그리하면 네가 경영하는 것이 이루어지리라",
+      "en": "Commit your deeds to Yahweh, and your plans shall be established."
+    }
+  },
+  {
+    "id": 79,
+    "book": {
+      "ko": "잠언",
+      "en": "Proverbs"
+    },
+    "chapter": 16,
+    "verse": 9,
+    "text": {
+      "ko": "사람이 마음으로 자기의 길을 계획할지라도 그의 걸음을 인도하시는 이는 여호와시니라",
+      "en": "A man’s heart plans his course, but Yahweh directs his steps."
+    }
+  },
+  {
+    "id": 80,
+    "book": {
+      "ko": "잠언",
+      "en": "Proverbs"
+    },
+    "chapter": 18,
+    "verse": 10,
+    "text": {
+      "ko": "여호와의 이름은 견고한 망대라 의인은 그리로 달려가서 안전함을 얻느니라",
+      "en": "The name of Yahweh is a strong tower. The righteous runs into it, and is safe."
+    }
+  },
+  {
+    "id": 81,
+    "book": {
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 9,
     "verse": 6,
     "text": {
-      "ko": "너는 범사에 그를 인정하라 그리하면 네 길을 지도하시리라"
+      "ko": "이는 한 아기가 우리에게 났고 한 아들을 우리에게 주신 바 되었는데 그의 어깨에는 정사를 메었고 그의 이름은 기묘자라, 모사라, 전능하신 하나님이라, 영존하시는 아버지라, 평강의 왕이라 할 것임이라",
+      "en": "For a child is born to us. A son is given to us. The government will be on his shoulders. His name will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace."
     }
   },
   {
-    "id": 47,
+    "id": 82,
     "book": {
-      "ko": "시편",
-      "en": "Psalms"
+      "ko": "이사야",
+      "en": "Isaiah"
     },
-    "chapter": 25,
-    "verse": 4,
+    "chapter": 26,
+    "verse": 3,
     "text": {
-      "ko": "여호와여 주의 도를 내게 보이시고 주의 길을 내게 가르치소서"
+      "ko": "주께서 심지가 견고한 자를 평강에 평강으로 지키시리니 이는 그가 주를 신뢰함이니이다",
+      "en": "You will keep him in perfect peace, whose mind is stayed on you, because he trusts in you."
     }
   },
   {
-    "id": 48,
+    "id": 83,
     "book": {
-      "ko": "골로새서",
-      "en": "Colossians"
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 40,
+    "verse": 8,
+    "text": {
+      "ko": "풀은 마르고 꽃은 시드나 우리 하나님의 말씀은 영원히 서리라 하라",
+      "en": "The grass withers, the flower fades; but the word of our God stands forever."
+    }
+  },
+  {
+    "id": 84,
+    "book": {
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 43,
+    "verse": 1,
+    "text": {
+      "ko": "야곱아 너를 창조하신 여호와께서 지금 말씀하시느니라 이스라엘아 너를 지으신 이가 말씀하시느니라 너는 두려워하지 말라 내가 너를 구속하였고 내가 너를 지명하여 부렀나니 너는 내 것이라",
+      "en": "But now Yahweh who created you, Jacob, and he who formed you, Israel, says: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.”"
+    }
+  },
+  {
+    "id": 85,
+    "book": {
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 43,
+    "verse": 2,
+    "text": {
+      "ko": "네가 물 가운데로 지날 때에 내가 너와 함께 할 것이라 강을 건널 때에 물이 너를 침몰하지 못할 것이며 네가 불 가운데로 지날 때에 타지도 아니할 것이요 불꽃이 너를 사르지도 못하리니",
+      "en": "When you pass through the waters, I will be with you; and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you."
+    }
+  },
+  {
+    "id": 86,
+    "book": {
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 43,
+    "verse": 19,
+    "text": {
+      "ko": "보라 내가 새 일을 행하리니 이제 나타낼 것이라 너희가 그것을 알지 못하겠느냐 반드시 내가 광야에 길을 사막에 강을 내리니",
+      "en": "Behold, I will do a new thing. It is now springing forth. Don’t you know it? I will even make a way in the wilderness, and rivers in the desert."
+    }
+  },
+  {
+    "id": 87,
+    "book": {
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 53,
+    "verse": 5,
+    "text": {
+      "ko": "그가 찔림은 우리의 허물 때문이요 그가 상함은 우리의 죄악 때문이라 그가 징계를 받으므로 우리는 평화를 누리고 그가 채찍에 맞으므로 우리는 나음을 받았도다",
+      "en": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment for our peace was on him; and by his wounds we are healed."
+    }
+  },
+  {
+    "id": 88,
+    "book": {
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 53,
+    "verse": 6,
+    "text": {
+      "ko": "우리는 다 양 같아서 그릇 행하여 각기 제 길로 갔거늘 여호와께서는 우리 모두의 죄악을 그에게 담당시키셨도다",
+      "en": "All we like sheep have gone astray. Everyone has turned to his own way; and Yahweh has laid on him the iniquity of us all."
+    }
+  },
+  {
+    "id": 89,
+    "book": {
+      "ko": "이사야",
+      "en": "Isaiah"
+    },
+    "chapter": 55,
+    "verse": 6,
+    "text": {
+      "ko": "너희는 여호와를 만날 만한 때에 찾으라 가까이 계실 때에 그를 부르라",
+      "en": "Seek Yahweh while he may be found. Call on him while he is near."
+    }
+  },
+  {
+    "id": 90,
+    "book": {
+      "ko": "예레미야 애가",
+      "en": "Lamentations"
     },
     "chapter": 3,
-    "verse": 15,
+    "verse": 22,
     "text": {
-      "ko": "그리스도의 평강이 너희 마음을 주장하게 하라"
+      "ko": "여호와의 인자와 긍휼이 무궁하시므로 우리가 진멸되지 아니함이니이다",
+      "en": "It is because of Yahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail."
+    }
+  },
+  {
+    "id": 91,
+    "book": {
+      "ko": "예레미야 애가",
+      "en": "Lamentations"
+    },
+    "chapter": 3,
+    "verse": 23,
+    "text": {
+      "ko": "이것들이 아침마다 새로우니 주의 성실하심이 크시도소이다",
+      "en": "They are new every morning. Great is your faithfulness."
+    }
+  },
+  {
+    "id": 92,
+    "book": {
+      "ko": "예레미야",
+      "en": "Jeremiah"
+    },
+    "chapter": 33,
+    "verse": 3,
+    "text": {
+      "ko": "너는 내게 부르짖으라 내가 네게 응답하겠고 네가 알지 못하는 크고 은밀한 일을 네게 보이리라",
+      "en": "‘Call to me, and I will answer you, and will show you great and difficult things, which you don’t know.’"
+    }
+  },
+  {
+    "id": 93,
+    "book": {
+      "ko": "다니엘",
+      "en": "Daniel"
+    },
+    "chapter": 12,
+    "verse": 3,
+    "text": {
+      "ko": "지혜 있는 자는 궁창의 빛과 같이 빛날 것이요 많은 사람을 옳은 데로 돌아오게 한 자는 별과 같이 영원토록 빛나리라",
+      "en": "Those who are wise shall shine as the brightness of the expanse; and those who turn many to righteousness as the stars forever and ever."
+    }
+  },
+  {
+    "id": 94,
+    "book": {
+      "ko": "미가",
+      "en": "Micah"
+    },
+    "chapter": 6,
+    "verse": 8,
+    "text": {
+      "ko": "사람아 주께서 선한 것이 무엇임을 네게 보이셨나니 여호와께서 네게 구하시는 것은 오직 정의를 행하며 인자를 사랑하며 겸손하게 네 하나님과 함께 행하는 것이 아니냐",
+      "en": "He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?"
+    }
+  },
+  {
+    "id": 95,
+    "book": {
+      "ko": "하박국",
+      "en": "Habakkuk"
+    },
+    "chapter": 2,
+    "verse": 4,
+    "text": {
+      "ko": "보라 그의 마음은 교만하며 그 속에서 정직하지 못하나 의인은 그의 믿음으로 말미암아 살리라",
+      "en": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith."
+    }
+  },
+  {
+    "id": 96,
+    "book": {
+      "ko": "하박국",
+      "en": "Habakkuk"
+    },
+    "chapter": 3,
+    "verse": 17,
+    "text": {
+      "ko": "비록 무화과나무가 무성하지 못하며 포도나무에 열매가 없으며 감람나무에 소출이 없으며 밭에 먹을 것이 없으며 우리에 양이 없으며 외양간에 소가 없을지라도",
+      "en": "For though the fig tree doesn’t flourish, nor fruit be in the vines; the labor of the olive fails, the fields yield no food; the flocks are cut off from the fold, and there is no herd in the stalls:"
+    }
+  },
+  {
+    "id": 97,
+    "book": {
+      "ko": "하박국",
+      "en": "Habakkuk"
+    },
+    "chapter": 3,
+    "verse": 18,
+    "text": {
+      "ko": "나는 여호와로 말미암아 즐거워하며 나의 구원의 하나님으로 말미암아 기뻐하리로다",
+      "en": "yet I will rejoice in Yahweh. I will be joyful in the God of my salvation."
+    }
+  },
+  {
+    "id": 98,
+    "book": {
+      "ko": "스가랴",
+      "en": "Zechariah"
+    },
+    "chapter": 4,
+    "verse": 6,
+    "text": {
+      "ko": "그가 내게 대답하여 이르되 여호와께서 스룹바벨에게 하신 말씀이 이러하니라 만군의 여호와께서 말씀하시되 이는 힘으로 되지 아니하며 능력으로 되지 아니하고 오직 나의 영으로 되느니라",
+      "en": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying: ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.”"
+    }
+  },
+  {
+    "id": 99,
+    "book": {
+      "ko": "말라기",
+      "en": "Malachi"
+    },
+    "chapter": 3,
+    "verse": 10,
+    "text": {
+      "ko": "만군의 여호와가 이르노라 너희의 온전한 십일조를 창고에 들여 나의 집에 양식이 있게 하고 그것으로 나를 시험하여 내가 하늘 문을 열고 너희에게 복을 쌓을 곳이 없도록 붓지 아니하나 보라",
+      "en": "“Bring the whole tithe into the storehouse, that there may be food in my house, and test me now in this,” says Yahweh of Armies, “if I will not open you the windows of heaven, and pour you out a blessing, that there will not be room enough for.”"
+    }
+  },
+  {
+    "id": 100,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 4,
+    "verse": 4,
+    "text": {
+      "ko": "예수께서 대답하여 이르시되 기록되었으되 사람이 떡으로만 살 것이 아니요 하나님의 입으로부터 나오는 모든 말씀으로 살 것이라 하였느니라 하시니",
+      "en": "But he answered, “It is written, ‘Man shall not live by bread alone, but by every word that proceeds out of the mouth of God.’”"
+    }
+  },
+  {
+    "id": 101,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 5,
+    "verse": 3,
+    "text": {
+      "ko": "심령이 가난한 자는 복이 있나니 천국이 그들의 것임이요",
+      "en": "“Blessed are the poor in spirit, for theirs is the Kingdom of Heaven.”"
+    }
+  },
+  {
+    "id": 102,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 5,
+    "verse": 14,
+    "text": {
+      "ko": "너희는 세상의 빛이라 산 위에 있는 동네가 숨겨지지 못할 것이요",
+      "en": "“You are the light of the world. A city located on a hill can’t be hidden.”"
+    }
+  },
+  {
+    "id": 103,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 5,
+    "verse": 16,
+    "text": {
+      "ko": "이같이 너희 빛이 사람 앞에 비치게 하여 그들로 너희 착한 행실을 보고 하늘에 계신 너희 아버지께 영광을 돌리게 하라",
+      "en": "“Even so, let your light shine before men, that they may see your good works, and glorify your Father who is in heaven.”"
+    }
+  },
+  {
+    "id": 104,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 6,
+    "verse": 34,
+    "text": {
+      "ko": "그러므로 내일 일을 위하여 염려하지 말라 내일 일은 내일이 염려할 것이요 한 날의 괴로움은 그 날로 족하니라",
+      "en": "“Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient for the day.”"
+    }
+  },
+  {
+    "id": 105,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 7,
+    "verse": 12,
+    "text": {
+      "ko": "그러므로 무엇이든지 남에게 대접을 받고자 하는 대로 너희도 남을 대접하라 이것이 율법이요 선지자니라",
+      "en": "“Therefore whatever you desire for men to do to you, you shall also do to them; for this is the law and the prophets.”"
+    }
+  },
+  {
+    "id": 106,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 18,
+    "verse": 20,
+    "text": {
+      "ko": "두세 사람이 내 이름으로 모인 곳에는 나도 그들 중에 있느니라",
+      "en": "“For where two or three are gathered together in my name, there I am in the middle of them.”"
+    }
+  },
+  {
+    "id": 107,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 22,
+    "verse": 37,
+    "text": {
+      "ko": "예수께서 이르시되 네 마음을 다하고 목숨을 다하고 뜻을 다하여 주 너의 하나님을 사랑하라 하셨으니",
+      "en": "Jesus said to him, “‘You shall love the Lord your God with all your heart, with all your soul, and with all your mind.’"
+    }
+  },
+  {
+    "id": 108,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 22,
+    "verse": 39,
+    "text": {
+      "ko": "둘째도 그와 같으니 네 이웃을 네 자신 같이 사랑하라 하셨으니",
+      "en": "A second likewise is this, ‘You shall love your neighbor as yourself.’”"
+    }
+  },
+  {
+    "id": 109,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 28,
+    "verse": 19,
+    "text": {
+      "ko": "그러므로 너희는 가서 모든 민족을 제자로 삼아 아버지와 아들과 성령의 이름으로 세례를 베풀고",
+      "en": "“Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,”"
+    }
+  },
+  {
+    "id": 110,
+    "book": {
+      "ko": "마태복음",
+      "en": "Matthew"
+    },
+    "chapter": 28,
+    "verse": 20,
+    "text": {
+      "ko": "내가 너희에게 분부한 모든 것을 가르쳐 지키게 하라 볼지어다 내가 세상 끝날까지 너희와 항상 함께 있으리라 하시니라",
+      "en": "“teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.” Amen."
+    }
+  },
+  {
+    "id": 111,
+    "book": {
+      "ko": "마가복음",
+      "en": "Mark"
+    },
+    "chapter": 9,
+    "verse": 23,
+    "text": {
+      "ko": "예수께서 이르시되 할 수 있거든이 무슨 말이냐 믿는 자에게는 능히 하지 못할 일이 없느니라 하시니",
+      "en": "Jesus said to him, “If you can believe, all things are possible to him who believes.”"
+    }
+  },
+  {
+    "id": 112,
+    "book": {
+      "ko": "마가복음",
+      "en": "Mark"
+    },
+    "chapter": 10,
+    "verse": 45,
+    "text": {
+      "ko": "인자가 온 것은 섬김을 받으려 함이 아니라 도리어 섬기려 하고 자기 목숨을 많은 사람의 대속물로 주려 함이니라",
+      "en": "“For the Son of Man also didn’t come to be served, but to serve, and to give his life as a ransom for many.”"
+    }
+  },
+  {
+    "id": 113,
+    "book": {
+      "ko": "마가복음",
+      "en": "Mark"
+    },
+    "chapter": 11,
+    "verse": 24,
+    "text": {
+      "ko": "그러므로 내가 너희에게 말하노니 무엇이든지 기도하고 구하는 것은 받은 줄로 믿으라 그리하면 너희에게 그대로 되리라",
+      "en": "“Therefore I tell you, all things whatever you pray and ask for, believe that you have received them, and you shall have them.”"
+    }
+  },
+  {
+    "id": 114,
+    "book": {
+      "ko": "누가복음",
+      "en": "Luke"
+    },
+    "chapter": 1,
+    "verse": 37,
+    "text": {
+      "ko": "대저 하나님의 모든 말씀은 능하지 못하심이 없느니라",
+      "en": "“For everything spoken by God is possible.”"
+    }
+  },
+  {
+    "id": 115,
+    "book": {
+      "ko": "누가복음",
+      "en": "Luke"
+    },
+    "chapter": 6,
+    "verse": 31,
+    "text": {
+      "ko": "남에게 대접을 받고자 하는 대로 너희도 남을 대접하라",
+      "en": "“As you would like people to do to you, do also to them likewise.”"
+    }
+  },
+  {
+    "id": 116,
+    "book": {
+      "ko": "요한복음",
+      "en": "John"
+    },
+    "chapter": 1,
+    "verse": 1,
+    "text": {
+      "ko": "태초에 말씀이 계시니라 이 말씀이 하나님과 함께 계셨으니 이 말씀은 곧 하나님이시니라",
+      "en": "In the beginning was the Word, and the Word was with God, and the Word was God."
+    }
+  },
+  {
+    "id": 117,
+    "book": {
+      "ko": "요한복음",
+      "en": "John"
+    },
+    "chapter": 1,
+    "verse": 12,
+    "text": {
+      "ko": "영접하는 자 곧 그 이름을 믿는 자들에게는 하나님의 자녀가 되는 권세를 주셨으니",
+      "en": "But as many as received him, to them he gave the right to become God’s children, to those who believe in his name:"
+    }
+  },
+  {
+    "id": 118,
+    "book": {
+      "ko": "요한복음",
+      "en": "John"
+    },
+    "chapter": 4,
+    "verse": 24,
+    "text": {
+      "ko": "하나님은 영이시니 예배하는 자가 영과 진리로 예배할지니라",
+      "en": "“God is spirit, and those who worship him must worship in spirit and truth.”"
+    }
+  },
+  {
+    "id": 119,
+    "book": {
+      "ko": "요한복음",
+      "en": "John"
+    },
+    "chapter": 8,
+    "verse": 32,
+    "text": {
+      "ko": "진리를 알지니 진리가 너희를 자유롭게 하리라",
+      "en": "“You will know the truth, and the truth will make you free.”"
+    }
+  },
+  {
+    "id": 120,
+    "book": {
+      "ko": "요한복음",
+      "en": "John"
+    },
+    "chapter": 10,
+    "verse": 10,
+    "text": {
+      "ko": "도둑이 오는 것은 도둑질하고 죽이고 멸망시키려는 것뿐이요 내가 온 것은 양으로 생명을 얻게 하고 더 풍성히 얻게 하려는 것이라",
+      "en": "“The thief comes only to steal, kill, and destroy. I came that they may have life, and may have it abundantly.”"
     }
   }
 ]

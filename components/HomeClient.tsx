@@ -16,6 +16,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
   const [viewState, setViewState] = useState<'particles' | 'leaving' | 'card'>('particles')
   const [saveState, setSaveState] = useState<'idle' | 'saving' | 'success' | 'error'>('idle')
   const [lang, setLang] = useState<'ko' | 'en'>('ko')
+  const [showAbout, setShowAbout] = useState(false)
   const exportCardRef = useRef<ExportCardHandle>(null)
 
   const handleSelect = (verse: Verse) => {
@@ -67,28 +68,102 @@ export default function HomeClient({ verses }: HomeClientProps) {
         background: 'var(--bg)',
       }}
     >
-      {/* 언어 토글 */}
-      <button
-        className="btn-toggle"
-        onClick={() => setLang(l => l === 'ko' ? 'en' : 'ko')}
-        style={{
-          position: 'fixed',
-          top: '22px',
-          right: '20px',
-          zIndex: 20,
-          background: 'var(--purple-light)',
-          color: 'var(--purple-dark)',
-          border: 'none',
-          borderRadius: '6px',
-          padding: '6px 12px',
-          fontFamily: 'NanumSquareNeo, sans-serif',
-          fontWeight: 700,
-          fontSize: '13px',
-          cursor: 'pointer',
-        }}
-      >
-        {lang === 'ko' ? 'EN' : '한'}
-      </button>
+      {/* 우상단 버튼 그룹 */}
+      <div style={{ position: 'fixed', top: '22px', right: '20px', zIndex: 20, display: 'flex', gap: '8px' }}>
+        <button
+          className="btn-toggle"
+          onClick={() => setShowAbout(true)}
+          style={{
+            background: 'var(--purple-light)',
+            color: 'var(--purple-dark)',
+            border: 'none',
+            borderRadius: '6px',
+            padding: '6px 10px',
+            fontFamily: 'NanumSquareNeo, sans-serif',
+            fontWeight: 700,
+            fontSize: '13px',
+            cursor: 'pointer',
+          }}
+        >
+          ?
+        </button>
+        <button
+          className="btn-toggle"
+          onClick={() => setLang(l => l === 'ko' ? 'en' : 'ko')}
+          style={{
+            background: 'var(--purple-light)',
+            color: 'var(--purple-dark)',
+            border: 'none',
+            borderRadius: '6px',
+            padding: '6px 12px',
+            fontFamily: 'NanumSquareNeo, sans-serif',
+            fontWeight: 700,
+            fontSize: '13px',
+            cursor: 'pointer',
+          }}
+        >
+          {lang === 'ko' ? 'EN' : '한'}
+        </button>
+      </div>
+
+      {/* About 모달 */}
+      {showAbout && (
+        <div
+          onClick={() => setShowAbout(false)}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            zIndex: 50,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'rgba(26,26,46,0.3)',
+          }}
+        >
+          <div
+            onClick={e => e.stopPropagation()}
+            style={{
+              background: 'var(--card-bg)',
+              border: '1px solid var(--card-border)',
+              borderRadius: '16px',
+              padding: '36px 32px',
+              maxWidth: '320px',
+              width: 'calc(100% - 48px)',
+              textAlign: 'center',
+              fontFamily: 'NanumSquareNeo, sans-serif',
+            }}
+          >
+            <p style={{ fontSize: '13px', fontWeight: 400, color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '20px', fontStyle: 'italic' }}>
+              {lang === 'ko'
+                ? <>&ldquo;태초에 말씀이 계시니라&rdquo;<br />— 요한복음 1:1</>
+                : <>&ldquo;In the beginning was the Word&rdquo;<br />— John 1:1</>}
+            </p>
+            <p style={{ fontSize: '15px', fontWeight: 400, color: 'var(--text-primary)', lineHeight: 1.8 }}>
+              {lang === 'ko'
+                ? <>당신이 말씀을 선택한 것이 아니라,<br />말씀이 당신을 선택하였습니다.</>
+                : <>You did not choose the Word.<br />The Word chose you.</>}
+            </p>
+            <button
+              className="btn-primary"
+              onClick={() => setShowAbout(false)}
+              style={{
+                marginTop: '28px',
+                background: 'var(--purple-light)',
+                border: 'none',
+                borderRadius: '6px',
+                padding: '10px 28px',
+                fontFamily: 'NanumSquareNeo, sans-serif',
+                fontWeight: 700,
+                fontSize: '13px',
+                color: 'var(--purple-dark)',
+                cursor: 'pointer',
+              }}
+            >
+              {lang === 'ko' ? '닫기' : 'Close'}
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* 앱 타이틀 */}
       <div style={{ position: 'fixed', top: '28px', left: 0, right: 0, textAlign: 'center', zIndex: 10, pointerEvents: 'none' }}>

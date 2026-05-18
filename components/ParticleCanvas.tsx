@@ -11,14 +11,14 @@ interface ParticleCanvasProps {
 const SPEED = 0.3
 const CANVAS_SCALE = 4
 
-type ShapeType = 'circle' | 'diamond' | 'cross'
-const SHAPES: ShapeType[] = ['circle', 'diamond', 'cross']
+type ShapeType = 'circle' | 'diamond' | 'star'
+const SHAPES: ShapeType[] = ['circle', 'diamond', 'star']
 
-// SVG path data centered at origin, ~7px radius equivalent
+// SVG path data centered at origin, ~10px outer radius
 const SHAPE_PATH: Record<ShapeType, string> = {
   circle:  '', // uses <circle> element
   diamond: 'M 0 -10 L 10 0 L 0 10 L -10 0 Z',
-  cross:   'M -3.5 -10 L 3.5 -10 L 3.5 -3.5 L 10 -3.5 L 10 3.5 L 3.5 3.5 L 3.5 10 L -3.5 10 L -3.5 3.5 L -10 3.5 L -10 -3.5 L -3.5 -3.5 Z',
+  star:    'M 0 -10 L 2.4 -3.2 L 9.5 -3.1 L 3.8 1.2 L 5.9 8.1 L 0 4 L -5.9 8.1 L -3.8 1.2 L -9.5 -3.1 L -2.4 -3.2 Z',
 }
 
 interface Particle {
@@ -94,7 +94,7 @@ export default function ParticleCanvas({ verses, onSelect }: ParticleCanvasProps
 
       group.addEventListener('pointerenter', () => {
         particles[i].paused = true
-        group.setAttribute('transform', `translate(${p.x},${p.y}) scale(1.45)`)
+        group.setAttribute('transform', `translate(${p.x},${p.y}) scale(1.3)`)
         shapeEl.setAttribute('fill', '#534AB7')
         shapeEl.setAttribute('fill-opacity', '1')
       })

@@ -70,10 +70,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ── 카드 페이드인 ───────────────────────────────────── */
+/* ── 카드 페이드인/아웃 ──────────────────────────────── */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
   to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+.particle-leaving {
+  animation: fadeOut 250ms ease-in forwards;
+  pointer-events: none;
+}
+
+/* ── 버튼 호버/액티브 ────────────────────────────────── */
+.btn-primary:disabled { opacity: 0.5 !important; cursor: not-allowed !important; }
+.btn-primary:hover:not(:disabled) { opacity: 0.85 !important; }
+.btn-primary:active:not(:disabled) { transform: scale(0.98) !important; }
+
+.btn-ghost:hover { background: rgba(196, 184, 240, 0.08) !important; }
+.btn-ghost:active { transform: scale(0.98); }
+
+.btn-toggle:hover { opacity: 0.75 !important; }
+.btn-toggle:active { transform: scale(0.95); }
+
+/* ── 카드 뷰 진입 애니메이션 ────────────────────────── */
+.card-view {
+  animation: fadeIn 300ms ease-out both;
 }
 
 /* ── 접근성: 모션 감소 ─────────────────────────────── */

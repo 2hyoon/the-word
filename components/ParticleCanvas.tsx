@@ -73,9 +73,6 @@ export default function ParticleCanvas({ verses, onSelect }: ParticleCanvasProps
     const groupEls = particles.map((p, i) => {
       const group = document.createElementNS(NS, 'g')
       group.style.cursor = 'pointer'
-      group.style.transition = 'transform 150ms ease-out'
-      group.style.transformBox = 'fill-box'
-      group.style.transformOrigin = 'center'
       group.dataset.index = String(i)
 
       let shapeEl: SVGElement

@@ -9,10 +9,11 @@ interface ParticleCanvasProps {
 }
 
 const SPEED = 0.3
-const CANVAS_SCALE = 4
+const CANVAS_SCALE = 2
+const PARTICLE_R = 14
 
-type ShapeType = 'circle' | 'diamond' | 'star'
-const SHAPES: ShapeType[] = ['circle', 'diamond', 'star']
+type ShapeType = 'circle' | 'cross' | 'rect'
+const SHAPES: ShapeType[] = ['circle', 'cross', 'rect']
 
 interface BookColor { fill: string; stroke: string }
 
@@ -58,11 +59,11 @@ function getBookColor(bookKo: string): BookColor {
   return BOOK_COLORS[bookKo] ?? DEFAULT_COLOR
 }
 
-// SVG path data centered at origin, ~10px outer radius
+// SVG path data centered at origin, ~14px outer radius
 const SHAPE_PATH: Record<ShapeType, string> = {
-  circle:  '', // uses <circle> element
-  diamond: 'M 0 -10 L 10 0 L 0 10 L -10 0 Z',
-  star:    'M 0 -10 L 2.4 -3.2 L 9.5 -3.1 L 3.8 1.2 L 5.9 8.1 L 0 4 L -5.9 8.1 L -3.8 1.2 L -9.5 -3.1 L -2.4 -3.2 Z',
+  circle:   '', // uses <circle> element
+  cross:    'M -3 -14 L 3 -14 L 3 -3 L 14 -3 L 14 3 L 3 3 L 3 14 L -3 14 L -3 3 L -14 3 L -14 -3 L -3 -3 Z',
+  rect:     'M -11 -11 L 11 -11 L 11 11 L -11 11 Z',
 }
 
 interface Particle {
@@ -124,7 +125,7 @@ export default function ParticleCanvas({ verses, onSelect }: ParticleCanvasProps
       let shapeEl: SVGElement
       if (p.shape === 'circle') {
         const el = document.createElementNS(NS, 'circle')
-        el.setAttribute('r', '10')
+        el.setAttribute('r', String(PARTICLE_R))
         shapeEl = el
       } else {
         const el = document.createElementNS(NS, 'path')

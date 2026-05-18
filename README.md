@@ -38,3 +38,11 @@ npm run start
 ## Deploy
 
 Connected to [Vercel](https://vercel.com) — pushing to `main` triggers automatic deployment.
+
+## Architecture
+
+See [docs/ADR.md](docs/ADR.md) for architecture decision records covering the tech stack choices, D3/React integration pattern, font setup, image export pipeline, and color system.
+
+## Development Methodology
+
+Built using a harness engineering approach: each feature was broken into explicitly scoped steps with shell-verifiable acceptance criteria, enabling structured AI-assisted development with predictable, reviewable output. Step definitions live in `phases/`.

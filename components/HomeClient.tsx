@@ -61,10 +61,11 @@ export default function HomeClient({ verses }: HomeClientProps) {
     >
       {/* 언어 토글 */}
       <button
+        className="btn-toggle"
         onClick={() => setLang(l => l === 'ko' ? 'en' : 'ko')}
         style={{
           position: 'fixed',
-          top: '20px',
+          top: '22px',
           right: '20px',
           zIndex: 20,
           background: 'var(--purple-light)',
@@ -127,6 +128,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
         </>
       ) : (
         <div
+          className="card-view"
           style={{
             flex: 1,
             display: 'flex',
@@ -134,6 +136,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
             alignItems: 'center',
             justifyContent: 'center',
             padding: '24px',
+            paddingBottom: 'calc(24px + env(safe-area-inset-bottom))',
             gap: '24px',
             overflowY: 'auto',
           }}
@@ -154,6 +157,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
             }}
           >
             <button
+              className="btn-primary"
               onClick={handleSave}
               disabled={saveState === 'saving'}
               style={{
@@ -165,20 +169,20 @@ export default function HomeClient({ verses }: HomeClientProps) {
                 fontFamily: 'NanumSquareNeo, sans-serif',
                 fontWeight: 700,
                 fontSize: '14px',
-                cursor: saveState === 'saving' ? 'not-allowed' : 'pointer',
+                cursor: 'pointer',
                 width: '100%',
-                opacity: saveState === 'saving' ? 0.5 : 1,
-                transition: 'background 200ms, color 200ms',
+                transition: 'background 200ms, color 200ms, opacity 150ms, transform 100ms',
               }}
             >
               {saveButtonLabel}
             </button>
             <button
+              className="btn-ghost"
               onClick={handleReset}
               style={{
-                background: 'var(--green-accent)',
-                color: 'var(--green-text)',
-                border: 'none',
+                background: 'transparent',
+                color: 'var(--text-secondary)',
+                border: '1px solid var(--card-border)',
                 borderRadius: '6px',
                 padding: '14px 24px',
                 fontFamily: 'NanumSquareNeo, sans-serif',
@@ -186,6 +190,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
                 fontSize: '14px',
                 cursor: 'pointer',
                 width: '100%',
+                transition: 'background 150ms, transform 100ms',
               }}
             >
               {ui.reset}

@@ -76,6 +76,22 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* ── 버튼 호버/액티브 ────────────────────────────────── */
+.btn-primary:disabled { opacity: 0.5 !important; cursor: not-allowed !important; }
+.btn-primary:hover:not(:disabled) { opacity: 0.85 !important; }
+.btn-primary:active:not(:disabled) { transform: scale(0.98) !important; }
+
+.btn-ghost:hover { background: rgba(196, 184, 240, 0.08) !important; }
+.btn-ghost:active { transform: scale(0.98); }
+
+.btn-toggle:hover { opacity: 0.75 !important; }
+.btn-toggle:active { transform: scale(0.95); }
+
+/* ── 카드 뷰 진입 애니메이션 ────────────────────────── */
+.card-view {
+  animation: fadeIn 300ms ease-out both;
+}
+
 /* ── 접근성: 모션 감소 ─────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

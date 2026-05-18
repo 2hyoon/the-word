@@ -13,13 +13,21 @@ interface HomeClientProps {
 
 export default function HomeClient({ verses }: HomeClientProps) {
   const [selectedVerse, setSelectedVerse] = useState<Verse | null>(null)
+  const [viewState, setViewState] = useState<'particles' | 'leaving' | 'card'>('particles')
   const [saveState, setSaveState] = useState<'idle' | 'saving' | 'success' | 'error'>('idle')
   const [lang, setLang] = useState<'ko' | 'en'>('ko')
   const exportCardRef = useRef<ExportCardHandle>(null)
 
+  const handleSelect = (verse: Verse) => {
+    setSelectedVerse(verse)
+    setViewState('leaving')
+    setTimeout(() => setViewState('card'), 250)
+  }
+
   const handleReset = () => {
     setSaveState('idle')
     setSelectedVerse(null)
+    setViewState('particles')
   }
 
   const handleSave = async () => {
@@ -102,7 +110,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
             margin: '4px auto 0',
           }}
         />
-        {!selectedVerse && (
+        {viewState !== 'card' && (
           <p
             style={{
               marginTop: '8px',
@@ -118,15 +126,17 @@ export default function HomeClient({ verses }: HomeClientProps) {
         )}
       </div>
 
-      {!selectedVerse ? (
+      {viewState !== 'card' ? (
         <>
-
           {/* 파티클 캔버스 */}
-          <div style={{ flex: 1, overflow: 'hidden' }}>
-            <ParticleCanvas verses={verses} onSelect={setSelectedVerse} />
+          <div
+            className={viewState === 'leaving' ? 'particle-leaving' : undefined}
+            style={{ flex: 1, overflow: 'hidden' }}
+          >
+            <ParticleCanvas verses={verses} onSelect={handleSelect} />
           </div>
         </>
-      ) : (
+      ) : selectedVerse ? (
         <div
           className="card-view"
           style={{
@@ -197,7 +207,7 @@ export default function HomeClient({ verses }: HomeClientProps) {
             </button>
           </div>
         </div>
-      )}
+      ) : null}
     </main>
   )
 }

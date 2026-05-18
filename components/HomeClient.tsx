@@ -178,14 +178,14 @@ export default function HomeClient({ verses }: HomeClientProps) {
           <span style={{fontSize: '20px'}}>the </span>Word
         </h1>
         <svg
-          width="80"
-          viewBox="0 0 120 20"
+          width="150"
+          viewBox="0 0 360 20"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           style={{ display: 'block', margin: '2px auto 0' }}
         >
           <path
-            d="M 0,10 C 5,4 15,4 20,10 C 25,16 35,16 40,10 C 45,4 55,4 60,10 C 65,16 75,16 80,10 C 85,4 95,4 100,10 C 105,16 115,16 120,10"
+            d="M 0,10 C 5,4 15,4 20,10 C 25,16 35,16 40,10 C 45,4 55,4 60,10 C 65,16 75,16 80,10 C 85,4 95,4 100,10 C 105,16 115,16 120,10 C 125,4 135,4 140,10 C 145,16 155,16 160,10 C 165,4 175,4 180,10 C 185,16 195,16 200,10 C 205,4 215,4 220,10 C 225,16 235,16 240,10 C 245,4 255,4 260,10 C 265,16 275,16 280,10 C 285,4 295,4 300,10 C 305,16 315,16 320,10 C 325,4 335,4 340,10 C 345,16 355,16 360,10"
             stroke="var(--text-primary)"
             strokeWidth="2"
             strokeLinecap="round"

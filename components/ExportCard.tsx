@@ -38,12 +38,7 @@ const ExportCard = forwardRef<ExportCardHandle, { verse: Verse; lang: 'ko' | 'en
           }}
         >
           <span style={{
-            display: 'inline-block',
-            alignSelf: 'flex-start',
-            background: '#C4B8F026',
-            border: '1px solid #C4B8F04D',
-            borderRadius: '9999px',
-            padding: '4px 12px',
+            display: 'block',
             fontSize: '14px',
             fontWeight: 700,
             color: '#534AB7',
@@ -74,21 +69,6 @@ const ExportCard = forwardRef<ExportCardHandle, { verse: Verse; lang: 'ko' | 'en
             — {lang === 'en' ? `${verse.book.en} ${verse.chapter}:${verse.verse}` : `${verse.book.ko} ${verse.chapter}:${verse.verse}`}
           </p>
 
-          <div style={{
-            position: 'absolute',
-            bottom: '60px',
-            right: '60px',
-          }}>
-            <span style={{
-              fontSize: '13px',
-              fontWeight: 800,
-              color: '#6B6B8A',
-              borderBottom: '2px solid #BFFFCC',
-              paddingBottom: '2px',
-            }}>
-              the Word
-            </span>
-          </div>
         </div>
       </div>
     )

@@ -2,9 +2,15 @@ import type { Verse } from '@/types'
 
 interface VerseCardProps {
   verse: Verse
+  lang: 'ko' | 'en'
 }
 
-export default function VerseCard({ verse }: VerseCardProps) {
+export default function VerseCard({ verse, lang }: VerseCardProps) {
+  const text = lang === 'en' && verse.text.en ? verse.text.en : verse.text.ko
+  const ref = lang === 'en'
+    ? `${verse.book.en} ${verse.chapter}:${verse.verse}`
+    : `${verse.book.ko} ${verse.chapter}:${verse.verse}`
+
   return (
     <div style={{
       background: '#FFFFFF',
@@ -35,10 +41,10 @@ export default function VerseCard({ verse }: VerseCardProps) {
         fontWeight: 400,
         lineHeight: 1.75,
         color: 'var(--text-primary)',
-        wordBreak: 'keep-all',
+        wordBreak: lang === 'ko' ? 'keep-all' : 'normal',
         margin: 0,
       }}>
-        {verse.text.ko}
+        {text}
       </p>
 
       <p style={{
@@ -48,7 +54,7 @@ export default function VerseCard({ verse }: VerseCardProps) {
         color: 'var(--text-secondary)',
         textAlign: 'right',
       }}>
-        {verse.book.ko} {verse.chapter}:{verse.verse}
+        {ref}
       </p>
     </div>
   )

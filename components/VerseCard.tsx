@@ -9,7 +9,7 @@ export default function VerseCard({ verse }: VerseCardProps) {
     <div style={{
       background: '#FFFFFF',
       border: '1px solid #C4B8F0',
-      borderRadius: '20px',
+      borderRadius: '6px',
       padding: '28px 24px',
       maxWidth: '320px',
       width: '100%',

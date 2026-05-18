@@ -14,6 +14,50 @@ const CANVAS_SCALE = 4
 type ShapeType = 'circle' | 'diamond' | 'star'
 const SHAPES: ShapeType[] = ['circle', 'diamond', 'star']
 
+interface BookColor { fill: string; stroke: string }
+
+const BOOK_COLORS: Record<string, BookColor> = {
+  // 구약 시/지혜서
+  '시편':           { fill: '#F5E6C0', stroke: '#C49A3C' },
+  '잠언':           { fill: '#F5E6C0', stroke: '#C49A3C' },
+  // 구약 예언서 + 역사서
+  '여호수아':       { fill: '#F0C4B8', stroke: '#C47060' },
+  '이사야':         { fill: '#F0C4B8', stroke: '#C47060' },
+  '예레미야':       { fill: '#F0C4B8', stroke: '#C47060' },
+  '예레미야 애가':  { fill: '#F0C4B8', stroke: '#C47060' },
+  '다니엘':         { fill: '#F0C4B8', stroke: '#C47060' },
+  '미가':           { fill: '#F0C4B8', stroke: '#C47060' },
+  '하박국':         { fill: '#F0C4B8', stroke: '#C47060' },
+  '스가랴':         { fill: '#F0C4B8', stroke: '#C47060' },
+  '말라기':         { fill: '#F0C4B8', stroke: '#C47060' },
+  // 복음서
+  '마태복음':       { fill: '#C4B8F0', stroke: '#534AB7' },
+  '마가복음':       { fill: '#C4B8F0', stroke: '#534AB7' },
+  '누가복음':       { fill: '#C4B8F0', stroke: '#534AB7' },
+  '요한복음':       { fill: '#C4B8F0', stroke: '#534AB7' },
+  // 서신서 + 계시록
+  '로마서':         { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '고린도전서':     { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '고린도후서':     { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '갈라디아서':     { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '에베소서':       { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '빌립보서':       { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '골로새서':       { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '데살로니가전서': { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '디모데후서':     { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '히브리서':       { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '야고보서':       { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '베드로전서':     { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '요한일서':       { fill: '#BFFFCC', stroke: '#1A5C35' },
+  '요한계시록':     { fill: '#BFFFCC', stroke: '#1A5C35' },
+}
+
+const DEFAULT_COLOR: BookColor = { fill: '#C4B8F0', stroke: '#534AB7' }
+
+function getBookColor(bookKo: string): BookColor {
+  return BOOK_COLORS[bookKo] ?? DEFAULT_COLOR
+}
+
 // SVG path data centered at origin, ~10px outer radius
 const SHAPE_PATH: Record<ShapeType, string> = {
   circle:  '', // uses <circle> element
@@ -30,6 +74,7 @@ interface Particle {
   turnTimer: number
   paused: boolean
   shape: ShapeType
+  color: BookColor
 }
 
 export default function ParticleCanvas({ verses, onSelect }: ParticleCanvasProps) {
@@ -67,6 +112,7 @@ export default function ParticleCanvas({ verses, onSelect }: ParticleCanvasProps
       turnTimer: 60 + Math.random() * 180,
       paused: false,
       shape: SHAPES[Math.floor(Math.random() * SHAPES.length)],
+      color: getBookColor(v.book.ko),
     }))
 
     // Each particle is a <g> containing the shape element
@@ -86,8 +132,8 @@ export default function ParticleCanvas({ verses, onSelect }: ParticleCanvasProps
         shapeEl = el
       }
 
-      shapeEl.setAttribute('fill', '#C4B8F0')
-      shapeEl.setAttribute('stroke', '#534AB7')
+      shapeEl.setAttribute('fill', p.color.fill)
+      shapeEl.setAttribute('stroke', p.color.stroke)
       shapeEl.setAttribute('stroke-width', '0.8')
       shapeEl.setAttribute('fill-opacity', '0.8')
       group.appendChild(shapeEl)
@@ -95,12 +141,12 @@ export default function ParticleCanvas({ verses, onSelect }: ParticleCanvasProps
       group.addEventListener('pointerenter', () => {
         particles[i].paused = true
         group.setAttribute('transform', `translate(${p.x},${p.y}) scale(1.3)`)
-        shapeEl.setAttribute('fill', '#534AB7')
+        shapeEl.setAttribute('fill', p.color.stroke)
         shapeEl.setAttribute('fill-opacity', '1')
       })
       group.addEventListener('pointerleave', () => {
         particles[i].paused = false
-        shapeEl.setAttribute('fill', '#C4B8F0')
+        shapeEl.setAttribute('fill', p.color.fill)
         shapeEl.setAttribute('fill-opacity', '0.8')
       })
 

@@ -94,22 +94,28 @@ export default function HomeClient({ verses }: HomeClientProps) {
       <div style={{ position: 'fixed', top: '28px', left: 0, right: 0, textAlign: 'center', zIndex: 10, pointerEvents: 'none' }}>
         <h1
           style={{
-            fontFamily: 'NanumSquareNeo, sans-serif',
-            fontWeight: 900,
-            fontSize: '24px',
+            fontFamily: 'Lora, Georgia, serif',
+            fontWeight: 700,
+            fontSize: '32px',
             color: 'var(--text-primary)',
           }}
         >
-          the Word
+          <span style={{fontSize: '20px'}}>the </span>Word
         </h1>
-        <div
-          style={{
-            width: '40px',
-            height: '2px',
-            background: 'var(--green-accent)',
-            margin: '4px auto 0',
-          }}
-        />
+        <svg
+          width="80"
+          viewBox="0 0 120 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          style={{ display: 'block', margin: '2px auto 0' }}
+        >
+          <path
+            d="M 0,10 C 5,4 15,4 20,10 C 25,16 35,16 40,10 C 45,4 55,4 60,10 C 65,16 75,16 80,10 C 85,4 95,4 100,10 C 105,16 115,16 120,10"
+            stroke="var(--text-primary)"
+            strokeWidth="2"
+            strokeLinecap="round"
+          />
+        </svg>
         {viewState !== 'card' && (
           <p
             style={{

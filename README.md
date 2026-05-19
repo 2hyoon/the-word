@@ -15,7 +15,6 @@ A web app that randomly draws a Bible verse for you to hold onto today.
 - **Next.js 16** (App Router)
 - **TypeScript** (strict mode)
 - **Tailwind CSS v4**
-- **D3.js v7** — SVG particle animation
 - **html2canvas** — image export
 - **Lora** (Google Fonts) + **NanumSquareNeo** (local font)
 
@@ -41,7 +40,7 @@ Connected to [Vercel](https://vercel.com) — pushing to `main` triggers automat
 
 ## Architecture
 
-See [docs/ADR.md](docs/ADR.md) for architecture decision records covering the tech stack choices, D3/React integration pattern, font setup, image export pipeline, and color system.
+See [docs/ADR.md](docs/ADR.md) for architecture decision records covering the tech stack choices, font setup, image export pipeline, and color system.
 
 ## Development Methodology
 
